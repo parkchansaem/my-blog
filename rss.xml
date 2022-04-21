@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[my develop blog daily learning memo]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 20 Apr 2022 07:06:09 GMT</lastBuildDate><item><title><![CDATA[4/15 TIL]]></title><description><![CDATA[클래스: 함수와 같은 의도로 코드를 정리하기 위해 사용함, 함수보다 한 발 더 나아가 관련된 함수와 변수를 하나로 묶어서 정리할 수 있습니다. 관련 있는 통계학/경제학/정치학을 사회과학이라는 큰 카테고리로 묶는 것과 같음
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[my develop blog daily learning memo]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 21 Apr 2022 09:49:19 GMT</lastBuildDate><item><title><![CDATA[4/15 TIL]]></title><description><![CDATA[클래스: 함수와 같은 의도로 코드를 정리하기 위해 사용함, 함수보다 한 발 더 나아가 관련된 함수와 변수를 하나로 묶어서 정리할 수 있습니다. 관련 있는 통계학/경제학/정치학을 사회과학이라는 큰 카테고리로 묶는 것과 같음
 클래스는 class…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/TIL/4-15/4-15/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/TIL/4-15/4-15/</guid><pubDate>Fri, 15 Apr 2022 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;클래스: 함수와 같은 의도로 코드를 정리하기 위해 사용함, 함수보다 한 발 더 나아가 관련된 함수와 변수를 하나로 묶어서 정리할 수 있습니다. 관련 있는 통계학/경제학/정치학을 사회과학이라는 큰 카테고리로 묶는 것과 같음
 클래스는 class 키워드로 정의할수있고 함수와 같은 원리로 정의 자체는 아무런 동작을 수행하지않고 클래스 내의 정의된 함수를 특별히 매서드라고 함. 이때 함수의 첫 파라미터로 self를 추가해야함&lt;/p&gt;
 &lt;p&gt;튜풀-&gt;리스트는 []으로 둘러싸지만 튜플은 ()으로 둘러싸고 리스트는 그 값의 생성, 삭제, 수정이 가능하지만 튜플은 그 값을 바꿀 수 없다.&lt;/p&gt;
@@ -127,7 +127,35 @@ Wires-brock방법: 분석과 설계 간의 구분이 없고, 고객 명세서를
 나선형 모혀으 점진적 모형, sprial model -보헴이 제안 -폭포수 모형과 프로토타입 모형 장점에 위험 분석기능 추가한 모형 -대규모 -여러 번의 sw 개발 과정을 거쳐 점진적으로 완벽한 최종 sw를 개발
 -sw를 개발하면서 발생 할 수 있는 위험 관리 및 최소화가 목적 -점전직으로 개발 과정이 반복되므로 누락되거나 추가된 요구 사항을 첨가할 수 있고, 정밀, 유지보수 과정이 필요없다. -계획 및 정의-&gt; 위험분석-&gt; 공학적 개발 -&gt; 고객 평가
 애자일 모형 -고객의 요구사항 변화에 유연하게 대응할 수 있도록 일정한 주기를 반복하면서 개발 과정 진행 -좋은 것을 빠르게, 낭비 없이 만들기 위해 고객과의 소통에 초점을 맞춘 방법론
-스프린트 이터레이션과 같은 짧은 개발 주기 반복, 반복되는 주기마다 만들어지는 결과물에 대한 고객의 평가와 요구를 적극 수용 -각 개발주기에서는 고객의 요구사항에 우선수위를 부여하여 개발작업 진행 -소규모 프로젝트, 고도로 숙달된 개발자, 급변하는 요규사항에 적합 -스크럼, xp,칸반,lean 등등&lt;/p&gt;</content:encoded></item><item><title><![CDATA[New Beginnings]]></title><link>https://gatsbystarterblogsource.gatsbyjs.io/new-beginnings/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/new-beginnings/</guid><pubDate>Thu, 28 May 2015 22:40:32 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[My Second Post!]]></title><description><![CDATA[Wow! I love blogging so much already. Did you know that “despite its name, salted duck eggs can also be made from
+스프린트 이터레이션과 같은 짧은 개발 주기 반복, 반복되는 주기마다 만들어지는 결과물에 대한 고객의 평가와 요구를 적극 수용 -각 개발주기에서는 고객의 요구사항에 우선수위를 부여하여 개발작업 진행 -소규모 프로젝트, 고도로 숙달된 개발자, 급변하는 요규사항에 적합 -스크럼, xp,칸반,lean 등등&lt;/p&gt;</content:encoded></item><item><title><![CDATA[4/11]]></title><description><![CDATA[이산수학: 사전적 의미는 별개의, 개별적인, 분리된 으로 포괄적인 수학개념
+집합: 여러 원소들(element…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/TIL/4-11/4-11/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/TIL/4-11/4-11/</guid><pubDate>Mon, 11 Apr 2022 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;이산수학: 사전적 의미는 별개의, 개별적인, 분리된 으로 포괄적인 수학개념
+집합: 여러 원소들(element)모임으로 중복된 원소를 가지지 않음
+원소 나열법: 집합에 속하는 원소들을 일일이 나열하는 방법
+조건 제시법: 집합에 포함되는 원소들의 성질을 조건식으로 제시하는 방법
+유한집합, 무한집합: 집합 a에 속하는 개수로 표현하며, 원소가 유한개인 집합을 유한 집합, 원소가 무한개인 집합을 무한 집합이라고 함
+전체 집합: 논의 대상이 되는 원소 전체를 포함하는 집합으로, 보통 알파벳으로 표기
+공집합: 원소를 하나도 가지지 않는 집합으로 {}로 표기
+부분 집합: 집합 A의 모든 원소가 집합 B에 포함딜 때 A는 B의 부분 집합이라고 한다.
+서로소: 집합A와 B에 공통으로 속한 원소가 하나도 없을 경우 서로소라 부른다.
+명제: 객관적으로 참, 거짓을 판단할 수 있는 문장이나 수식.
+논리곱- 명제가 모두 참일 경우에만 참이다, 논리합- 명제가 모두 거짓일때만 거짓이고 그렇지 않으면 모두 참이된다. 조건명제 p → q의 진릿값은 p가 거짓일 경우 항상 참이고 p가 참일 경우 q의 진릿값과 일치한다, 역- 조건 명제에 대하여 가정과 결론이 바뀐 것, 이-조건명제에 대하여 가정과 결론을 각각 부정한 것, 대우-조건명제에 대하여 가정과 결론이 바뀐 동시에 부정한 것
+명제함수: 변수 X를 포함하여 진릿값을 판별할 수 있는 문장이나 수식
+전체한정자: 모든 값에 대하여 라는 말을 쓸때 ∀라는 수학기호를 사용하며 명제는 논의 대상이 되는 모든 X에대하여 참일 경우 참인 명제이다.
+존재한정자:어떤 값이 존재하여 라는 말을 쓸때 ∃ 라는 수학기호를 사용하며 명제는 X가 참이 되는 X가 하나라도 있을 경우 참이 되는 명제이다.
+함수: 집합 A, B에 대하여 모든 집합 A의 원소에 대하여 집합 B의 원소가 하나씩 대응될 때,
+그 대응 관계를 나타내는 것을 함수 f: A → B 라고 쓰고 A에서 B로 가는 함수 f라고 읽는다
+일대일 함수(단사함수): 정의역이 모든 원소들이 서로 다른 공역의 원소와 대응하는 함수
+전사함수:공역과 치역이 일치하는 함수
+일대일 대응함수(전사함수):일대일 함수 중에서 공역과 치역이 일치하는 함수
+합성함수:두함수를 연속적으로 적용한 함수를 표현한 함수
+합성 함수의 특성- 일대일함수면 일대일함수이다, 전사함수면 전사함수이다, 일대일 대응함수면 일대잉 대응함수이다.
+항등함수: 자기자신인 함수
+역함수:일대일 함수라면 항등함수가 존재하는데 이를 역함수라함
+상수함수: 함수치역이 단 하나만 존재하는 것&lt;/p&gt;
+&lt;p&gt;알고리즘: 주어진 문제에 대해 그 문제를 해결하기 위한 방법을 순차적으로 나열한 것
+-&gt;유한성:유한 시간 내에 종료되어야 한다., 정확성:각각의 중간과정은 명확하게 서술되어야 한다., 일반성:여러 입력값에 대해 적용 가능해야 한다.
+-&gt;표현방법: 순서적인 도표를 사용해서 표한하는 순서도(flow chart), 실제적인 언어를 닮은 의사 코드(pseudo code), 실제 언어를 사용해서 표현하기&lt;/p&gt;
+&lt;p&gt;리스트 인덱싱과 슬라이싱&lt;/p&gt;</content:encoded></item><item><title><![CDATA[New Beginnings]]></title><link>https://gatsbystarterblogsource.gatsbyjs.io/new-beginnings/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/new-beginnings/</guid><pubDate>Thu, 28 May 2015 22:40:32 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[My Second Post!]]></title><description><![CDATA[Wow! I love blogging so much already. Did you know that “despite its name, salted duck eggs can also be made from
 chicken eggs, though the…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/my-second-post/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/my-second-post/</guid><pubDate>Wed, 06 May 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Wow! I love blogging so much already.&lt;/p&gt;
 &lt;p&gt;Did you know that “despite its name, salted duck eggs can also be made from
 chicken eggs, though the taste and texture will be somewhat different, and the
