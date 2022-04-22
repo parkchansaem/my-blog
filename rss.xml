@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[my develop blog daily learning memo]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 21 Apr 2022 09:49:19 GMT</lastBuildDate><item><title><![CDATA[4/15 TIL]]></title><description><![CDATA[클래스: 함수와 같은 의도로 코드를 정리하기 위해 사용함, 함수보다 한 발 더 나아가 관련된 함수와 변수를 하나로 묶어서 정리할 수 있습니다. 관련 있는 통계학/경제학/정치학을 사회과학이라는 큰 카테고리로 묶는 것과 같음
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[my develop blog daily learning memo]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 22 Apr 2022 08:52:28 GMT</lastBuildDate><item><title><![CDATA[4/15 TIL]]></title><description><![CDATA[클래스: 함수와 같은 의도로 코드를 정리하기 위해 사용함, 함수보다 한 발 더 나아가 관련된 함수와 변수를 하나로 묶어서 정리할 수 있습니다. 관련 있는 통계학/경제학/정치학을 사회과학이라는 큰 카테고리로 묶는 것과 같음
 클래스는 class…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/TIL/4-15/4-15/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/TIL/4-15/4-15/</guid><pubDate>Fri, 15 Apr 2022 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;클래스: 함수와 같은 의도로 코드를 정리하기 위해 사용함, 함수보다 한 발 더 나아가 관련된 함수와 변수를 하나로 묶어서 정리할 수 있습니다. 관련 있는 통계학/경제학/정치학을 사회과학이라는 큰 카테고리로 묶는 것과 같음
 클래스는 class 키워드로 정의할수있고 함수와 같은 원리로 정의 자체는 아무런 동작을 수행하지않고 클래스 내의 정의된 함수를 특별히 매서드라고 함. 이때 함수의 첫 파라미터로 self를 추가해야함&lt;/p&gt;
 &lt;p&gt;튜풀-&gt;리스트는 []으로 둘러싸지만 튜플은 ()으로 둘러싸고 리스트는 그 값의 생성, 삭제, 수정이 가능하지만 튜플은 그 값을 바꿀 수 없다.&lt;/p&gt;
@@ -155,7 +155,36 @@ Wires-brock방법: 분석과 설계 간의 구분이 없고, 고객 명세서를
 &lt;p&gt;알고리즘: 주어진 문제에 대해 그 문제를 해결하기 위한 방법을 순차적으로 나열한 것
 -&gt;유한성:유한 시간 내에 종료되어야 한다., 정확성:각각의 중간과정은 명확하게 서술되어야 한다., 일반성:여러 입력값에 대해 적용 가능해야 한다.
 -&gt;표현방법: 순서적인 도표를 사용해서 표한하는 순서도(flow chart), 실제적인 언어를 닮은 의사 코드(pseudo code), 실제 언어를 사용해서 표현하기&lt;/p&gt;
-&lt;p&gt;리스트 인덱싱과 슬라이싱&lt;/p&gt;</content:encoded></item><item><title><![CDATA[New Beginnings]]></title><link>https://gatsbystarterblogsource.gatsbyjs.io/new-beginnings/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/new-beginnings/</guid><pubDate>Thu, 28 May 2015 22:40:32 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[My Second Post!]]></title><description><![CDATA[Wow! I love blogging so much already. Did you know that “despite its name, salted duck eggs can also be made from
+&lt;p&gt;리스트 인덱싱과 슬라이싱&lt;/p&gt;</content:encoded></item><item><title><![CDATA[4/08]]></title><description><![CDATA[트리: 한노드가 여러 노드를 가르킬 수 있음, 비선형적 자료구조 ,데이터 구조의 계층적인 속성을 표현(상하관계)-> 파일시스템이랑 유사
+루트- 최상위 , 엣지로 구성, 부모-자식 노드로 구성
+이진 트리: 각 노드가 최대…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/TIL/4-08/4-08/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/TIL/4-08/4-08/</guid><pubDate>Fri, 08 Apr 2022 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;트리: 한노드가 여러 노드를 가르킬 수 있음, 비선형적 자료구조 ,데이터 구조의 계층적인 속성을 표현(상하관계)-&gt; 파일시스템이랑 유사
+루트- 최상위 , 엣지로 구성, 부모-자식 노드로 구성
+이진 트리: 각 노드가 최대 2개의 자식 노드를 가지는 트리, 포화이진트리는 2의h승,
+완전 이진트리: 마지막 레벨을 제외하고 모든 노드가 채워져야 함, 노드는 왼쪽에서 오른쪽으로 채워짐
+트리 순회:트리 구조에서 각 노드를 한번씩 방문하는 과정,전위탐색,중위탐색,후위탐색
+Preorder:노드방문-&gt;왼쪽서브트리-&gt;오른쪽서브트리탐색
+Inorder:왼족서브트리-&gt;노드방문-&gt;오른쪽서브탐색
+Postorder:왼쪽서브트리-&gt;오른쪽서브트리-&gt;노드 방문&lt;/p&gt;
+&lt;p&gt;힙 heap: 자료구조의 힙-&gt;완전 이진 트리-&gt;최대힙(max heap)-부모 노드의 값은 항상 자식 노드보다 크거나 같음, 최소힙(min Heap)-부모 노드의 값은 항상 자식 노드보다 작거나 같음 -최대/최소를 기준으로 데이터를 찾는 연산을 뻐ㅏ르게 할수 잇음,삽입O(logN),삭제O(logN) -일반큐:먼저 들어온 데이터가 먼저 나가는 FIFO데이터 구조 -우선순위 큐:데이터가 들어온 순서에 상관없이,우선순위가 높은 데이터 순으로 처리, 작업 스케줄링
+힙 정렬: 힙 자료구조의 특성을 이용한 정렬 방법&lt;/p&gt;
+&lt;p&gt;그래프:네비게이션 길찾기, 게임내 캐릭터 이동, 지식 그래프-쾨니히스베르크의 다리 문제 한 다리를 두번이상 건너지 않고 모든 다리를 건널 수 있을까?
+가중치 그래프, 순환 그래프,&lt;/p&gt;
+&lt;p&gt;추가 정리
+힙:데이터에서 최대값과 최소값을 빠르게 찾기 위해 고안된 완전 이진 트리
+완전 이진 트리: 노드를 삽입할 때 최하단 왼쪽 노드부터 차례대로 삽입하는 트리
+힙을 사용하는 이유:배열에 데이터를 넣고, 최대값과 최소값을 찾으려면 O(logn)이 걸림,우선순위 큐와 같이 최대값 또는 최소값을 빠르게 찾아야 하는 자료구조 및 알고리즘 구현 등에 활용
+힙의 구조 -힙은 최대값을 구하기 위한 구조(max heap),과 최소값을 구하기 위한 구조(minheap)로 분류 -최대힙의 경우, 각 노드의 값은 해당 노드의 자식 노드가 가진 값보다 크거나 같다. -최소힙의 경우, 각 노드의 값은 해당 노드의 자식 노드가 가진 값보다 크거나 작음 -완전 이진 트리 형태를 가짐
+힙과 이진 탐색트리의 공통점과 차이점 -공통점:힙과 이진 탐색 트리는 모두 이진 트리임 -차이점:
+힙은 각 노드의 값이 자식 노드보다 크거나 같음(max경우)
+이진 탐색 트리는 왼쪽 자식 노드의 값이 가장 작고, 그 다음 부모 노드, 그 다음 오른쪽 자식 노드값이 가장큼
+힙의 동장 -힙은 완전 이진트리이므&lt;/p&gt;
+&lt;p&gt;그래프 순회-BFS,DFS
+BFS - 너비 우선 탐색,
+DFS(Depth-first Search) - 깊이 우선 탐색,
+위상정렬(Topological Sorting): 비순형 방향 그래프를 순서대로 출력, 순서가 있는 task에서 순서를 찾아주는 알고리즘
+다익스트라:한 vertex에서 다른 vertex까지의 최단 경로, edge의 가중치는 양수만 가능
+-&gt;시작 노드에서 출발하여 연결되어 있는 노드들을 탐색하며 최단 거리를 탐색
+DP(Dynamic programming):동적 프로그래밍, Memoization-한번 계산된 값은 메모리에 저장해서 동일한 계산은 반복하지 않음&lt;/p&gt;</content:encoded></item><item><title><![CDATA[New Beginnings]]></title><link>https://gatsbystarterblogsource.gatsbyjs.io/new-beginnings/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/new-beginnings/</guid><pubDate>Thu, 28 May 2015 22:40:32 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[My Second Post!]]></title><description><![CDATA[Wow! I love blogging so much already. Did you know that “despite its name, salted duck eggs can also be made from
 chicken eggs, though the…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/my-second-post/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/my-second-post/</guid><pubDate>Wed, 06 May 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Wow! I love blogging so much already.&lt;/p&gt;
 &lt;p&gt;Did you know that “despite its name, salted duck eggs can also be made from
 chicken eggs, though the taste and texture will be somewhat different, and the
