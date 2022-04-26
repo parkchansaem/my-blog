@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[my develop blog daily learning memo]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 22 Apr 2022 08:52:28 GMT</lastBuildDate><item><title><![CDATA[4/15 TIL]]></title><description><![CDATA[클래스: 함수와 같은 의도로 코드를 정리하기 위해 사용함, 함수보다 한 발 더 나아가 관련된 함수와 변수를 하나로 묶어서 정리할 수 있습니다. 관련 있는 통계학/경제학/정치학을 사회과학이라는 큰 카테고리로 묶는 것과 같음
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[my develop blog daily learning memo]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 26 Apr 2022 09:40:11 GMT</lastBuildDate><item><title><![CDATA[4/15 TIL]]></title><description><![CDATA[클래스: 함수와 같은 의도로 코드를 정리하기 위해 사용함, 함수보다 한 발 더 나아가 관련된 함수와 변수를 하나로 묶어서 정리할 수 있습니다. 관련 있는 통계학/경제학/정치학을 사회과학이라는 큰 카테고리로 묶는 것과 같음
 클래스는 class…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/TIL/4-15/4-15/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/TIL/4-15/4-15/</guid><pubDate>Fri, 15 Apr 2022 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;클래스: 함수와 같은 의도로 코드를 정리하기 위해 사용함, 함수보다 한 발 더 나아가 관련된 함수와 변수를 하나로 묶어서 정리할 수 있습니다. 관련 있는 통계학/경제학/정치학을 사회과학이라는 큰 카테고리로 묶는 것과 같음
 클래스는 class 키워드로 정의할수있고 함수와 같은 원리로 정의 자체는 아무런 동작을 수행하지않고 클래스 내의 정의된 함수를 특별히 매서드라고 함. 이때 함수의 첫 파라미터로 self를 추가해야함&lt;/p&gt;
 &lt;p&gt;튜풀-&gt;리스트는 []으로 둘러싸지만 튜플은 ()으로 둘러싸고 리스트는 그 값의 생성, 삭제, 수정이 가능하지만 튜플은 그 값을 바꿀 수 없다.&lt;/p&gt;
@@ -184,7 +184,84 @@ DFS(Depth-first Search) - 깊이 우선 탐색,
 위상정렬(Topological Sorting): 비순형 방향 그래프를 순서대로 출력, 순서가 있는 task에서 순서를 찾아주는 알고리즘
 다익스트라:한 vertex에서 다른 vertex까지의 최단 경로, edge의 가중치는 양수만 가능
 -&gt;시작 노드에서 출발하여 연결되어 있는 노드들을 탐색하며 최단 거리를 탐색
-DP(Dynamic programming):동적 프로그래밍, Memoization-한번 계산된 값은 메모리에 저장해서 동일한 계산은 반복하지 않음&lt;/p&gt;</content:encoded></item><item><title><![CDATA[New Beginnings]]></title><link>https://gatsbystarterblogsource.gatsbyjs.io/new-beginnings/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/new-beginnings/</guid><pubDate>Thu, 28 May 2015 22:40:32 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[My Second Post!]]></title><description><![CDATA[Wow! I love blogging so much already. Did you know that “despite its name, salted duck eggs can also be made from
+DP(Dynamic programming):동적 프로그래밍, Memoization-한번 계산된 값은 메모리에 저장해서 동일한 계산은 반복하지 않음&lt;/p&gt;</content:encoded></item><item><title><![CDATA[4/07]]></title><description><![CDATA[네트워크
+이더넷 프레임과 길이
+레지스터와 네트워크 드라이버
+드라이버와 소켓 시스템콜의 흐름
+네트워크 계층의 각 노드의 역활
+IP주소의 구성과 특수 주소
+IP헤더의 구조와 단편화 방법
+라우팅과 처리 흐름
+ARP프로토콜의 역활
+ICMP와 IGMP…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/TIL/4-07/4-07/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/TIL/4-07/4-07/</guid><pubDate>Thu, 07 Apr 2022 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;네트워크
+이더넷 프레임과 길이
+레지스터와 네트워크 드라이버
+드라이버와 소켓 시스템콜의 흐름
+네트워크 계층의 각 노드의 역활
+IP주소의 구성과 특수 주소
+IP헤더의 구조와 단편화 방법
+라우팅과 처리 흐름
+ARP프로토콜의 역활
+ICMP와 IGMP프로토콜의 역활
+IPv6와 ICMPv6 프로토콜의 역활&lt;/p&gt;
+&lt;p&gt;자료구조와 알고리즘
+빅오표기법
+시간복잡도
+리스트- 배열, 연결리스트, 이중연결 리스트
+스택- 후입선출
+큐- 선입선출 -&gt;선형큐, 원형큐&lt;/p&gt;</content:encoded></item><item><title><![CDATA[4/06]]></title><description><![CDATA[Schema : database…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/TIL/4-06/4-06/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/TIL/4-06/4-06/</guid><pubDate>Wed, 06 Apr 2022 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;Schema : database의 구조와 제약조건에 대한 전반적인 명세 기술,외부스키마,개념스키마, 내부스키마로 구성
+외부스키마 : 프로그램 사용자가 필요로 하는 데이터베이스의 논리적인 구조를 정의
+개념스키마:조직 전체의 관점에서의 구조와 관계를 정의, 외부 스키마의 합과 그 사이의 데이터의 관계 등등, 일반적인 스키마의 정의
+내부스키마: 저장자치의 입장에서 데이터베이스가 저장되는 방법을 기술
+Network:우리는 어떻게 다른 컴퓨터와 통신하고, 웹서핑을 할 수 있을까-&gt;컴퓨터간 리소스를 공유 가능하게 만드는 통신망
+Characteristics of network:컴퓨터사이의 리소스를 공유, 네트워크로 연결된 다른 컴퓨터에 접근하여 파일을 생성, 수정, 삭제할 수 있음, 프린터와 스캐너, 팩스 등의 출력장치에 네트워크를 연결하여 여러 컴퓨터가 동시 접근 가능
+Queue?&lt;/p&gt;
+&lt;p&gt;LAN: local area network(근거리 통신망),학교,회사 등 가까운 지역의 좁은 범위
+WAN:wide area network(광역통신망),국가, 대륙 등 넓은 지역을 커버
+MAN:metropolitan area network(도시권 통신망)
+WLAN:wireless local area network(무선 근거리 통신망)
+Ethernet: 전세계의 사무실이나 가정에서 일반적으로 사용되는 유선 LAN에서 가장 많이 활용되는 기술 규격,,osi 7 layer에서 Data-link layer에 위치
+Packet:데이터를 한번에 전송할 단위로 자른 데이터의 묶음 혹은 그 크기,네트워크에서는 바이트(byte)라는 표현 대신 옥텟(octet)으로 표현&lt;/p&gt;
+&lt;p&gt;Application Layer:사용자에게 네트워크 자원에 대한 접근을 제공, 네트워크 활동들에 대한 모든 기본적인 인터페이스를 제공, 사용자에게 보이는 유일한 제출
+Presentation Layer:응용 계층으로부터 전송받거나 전달되는 데이터의 인코딩과 디코딩, 안전하게 데이터를 사용하기 위해 몇가지 암호화와 복호화 형식 보유
+Session Layer: 두대의 컴퓨터사이의 세션이나 대화를 관리, 모든 통신 장비를 연결하고 관리하며 종료, 순간적으로 연결이 끊어지는 것을 막고 호스트 사이의 연결을 적절하게 종료시키기 위한 기능과 연결이 단방향인지 양방향인지에 대한 것을 담당
+Transport Layer: 아래 계층에 신뢰성 있는 데이터를 전송할 수 있게 함, 흐름제어, 분할, 재조립, 오류관리를 포함하지만 전송 계층은 지점과 지점간의 오류 없음을 보장, 연결 지향적인 프로토콜과 비연결 지향적인 프로토콜을 제공하고 , 방화벽과 프록시 서버가 이 계층에서 동작
+Network Layer:가장 복잡한 OSI계층 중 하나로, 물리적인 네트워크 사이의 라우팅을 담당하며, 라우터가 이 계층에서 동작
+Datalink Layer: 물리적인 네트워크 사이의 데이터 전송을 담당, 물리적인 장비를 식별하는데 사용되는 주소 지정 체계와 데이터가 변조되지 않았음을 확증하기 위한 오류 확인을 제공, 브리지와 스위치가 이 계층에서 동작하는 물리적인 장비
+Physical Layer: 네트워크 데이터가 전송될 때 사용되는 물리적 매개체, 전압, 허브, 네트워크 어댑터, 리피터, 케이블 명세서를 포함해 모든 하드웨어의 물리적이고 전자적인 특성을 정의,연결을 설정하고 종료하며, 공유된 통신 자원을 제공하고, 아날로그를 디지털로, 디지털을 아날로그로 변환함&lt;/p&gt;
+&lt;p&gt;HTTP:TCP,UDP를 이용
+HTTP over SSL:HTTP의 보안 강화 버전, 소켓통신 시 SSL or TLS Protocol로 세션 데이터를 암호화
+FTP(file transfer protocol):서버와 클라이언트 사이에 파일전송을 위한 프로토콜, 보안이 취약,현재(FTPS,SFTP,SSH)등을 사용
+SMTP(simple mail transfer protocol):internet에서 메일을 보내기 위한 프로토콜
+TCP/IP: 전송제어 프로토콜 + 송수신 호스트의 패킷교환을 위한 프로토콜
+TCP:전송제어프로토콜, 근거리 통신망이나 인트라넷, 인터넷에 연결된 컴퓨터에서 실행되는 프로그램 간에 일련의 옥텟을 안정적으로, 순서대로 에러없이 교환할 수 있게 함
+DNS:Domain Name System, 외우기 힘들며, 더 힘들어질 ip address를 사람이 판별하기 쉬운 url을 매핑하는 시스템
+UDP: user Datagram protocol- 데이터그램을 전송하기 위한 프로토콜, 메시지 수신확인이 안되고, 도착순서 예측이 안됨 하지만 빠른속도와 적은 오버 헤드가 있음&lt;/p&gt;
+&lt;p&gt;TCP/IP 만드신 분 내한해서 강의를 한 적이 있음&lt;/p&gt;
+&lt;p&gt;Web Programming
+웹 개발 패턴 변화
+-&gt;1991&lt;del&gt;1999:팀버널스 리가 하이퍼텍스트 기반의 프로젝트를 제안한 이후 정적인 컨텐츠들을 중심으로 한 웹 기술이 발달.
+-&gt;1999&lt;/del&gt;2009: Linux,Apache,Mysql,Php 중심의 동적인 서버, 정적인 클라이언트 모델이 지속됨
+-&gt;2010~ 현재:javascript(Dynamic Web Client)&lt;/p&gt;
+&lt;p&gt;Web browser
+PWA: progressivem web app-웹개발에서 앱개발로 넘어가는 것
+클라이언트-서버 방식:자바스크립트를 이용하여 클라이언트쪽에서 해결
+서버-사이드 방식: 다양한 프로그래밍 언어를 이용하여 서버쪽에서 사용됨
+URI-Uniform Resource Information
+URL-Uniform Resource Locator
+URN-Uniform Resource Name&lt;/p&gt;
+&lt;p&gt;Cloud Computing
+Cloud computing:인터넷에 연결된 다른 컴퓨터로 연산을 하는 기술, 접근성, 주문형 서비스 제공으로 경제적이고 효율적인 컴퓨팅 서비스 제공,AWS,GCP,Azure&lt;/p&gt;
+&lt;p&gt;API
+API(application programming interface):어플리케이션(소프트웨어)에서 사용할 수 있도록 운영체제나 프로그래밍언어가 제공하는 기능 제어를 위한 인터페이스
+Web API: 웹 어플리케이션 개발에서 다른 서비스에 요청을 보내어 응답을 받기 위해 정의된 명세서
+Rest(Representational State Transfer):자원(URL)의 행동(HTTP Method)을 표현(Representation)
+REST API: uniform interface-리소스 조작을 한정적인 인터페이스로 수행,self-descrptive-api 메시지만으로 동작 유추 가능&lt;/p&gt;
+&lt;p&gt;Data Structure &amp;#x26; Algorithm
+Algorithm:목표를 달성하거나 결과물을 생성하기 위해 필요한 과정&lt;/p&gt;
+&lt;h2&gt;hackerLink, leecode, 백준온라인 -&gt; 알고리즘 공부 사이트&lt;/h2&gt;
+&lt;p&gt;Clarity: 시간복잡도? 자료의 수 증가할 때 시간의 증가 패턴을 나타낸 것
+DataStructure: stack(push, pop=&gt;LIFO(Last in, First Out), Queue(선입선출)순서를 지키며 자료를 표현함=&gt;FIFO(First in First Out),앞쪽(enqueue),뒷쪽(dequeue)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My Second Post!]]></title><description><![CDATA[Wow! I love blogging so much already. Did you know that “despite its name, salted duck eggs can also be made from
 chicken eggs, though the…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/my-second-post/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/my-second-post/</guid><pubDate>Wed, 06 May 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Wow! I love blogging so much already.&lt;/p&gt;
 &lt;p&gt;Did you know that “despite its name, salted duck eggs can also be made from
 chicken eggs, though the taste and texture will be somewhat different, and the

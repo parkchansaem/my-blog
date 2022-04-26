@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-blog-post-js",
+    "path": "/TIL/4-07/4-07/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"Chan saem 의 블로그"}},"markdownRemark":{"id":"a93c802f-dbe5-50fe-b7cb-088621d545c2","excerpt":"네트워크\n이더넷 프레임과 길이\n레지스터와 네트워크 드라이버\n드라이버와 소켓 시스템콜의 흐름\n네트워크 계층의 각 노드의 역활\nIP주소의 구성과 특수 주소\nIP헤더의 구조와 단편화 방법\n라우팅과 처리 흐름\nARP프로토콜의 역활\nICMP와 IGMP프로토콜의 역활\nIPv6와 ICMPv…","html":"<p>네트워크\n이더넷 프레임과 길이\n레지스터와 네트워크 드라이버\n드라이버와 소켓 시스템콜의 흐름\n네트워크 계층의 각 노드의 역활\nIP주소의 구성과 특수 주소\nIP헤더의 구조와 단편화 방법\n라우팅과 처리 흐름\nARP프로토콜의 역활\nICMP와 IGMP프로토콜의 역활\nIPv6와 ICMPv6 프로토콜의 역활</p>\n<p>자료구조와 알고리즘\n빅오표기법\n시간복잡도\n리스트- 배열, 연결리스트, 이중연결 리스트\n스택- 후입선출\n큐- 선입선출 ->선형큐, 원형큐</p>","frontmatter":{"title":"4/07","date":"April 07, 2022","description":"공부내역"}},"previous":{"fields":{"slug":"/TIL/4-06/4-06/"},"frontmatter":{"title":"4/06"}},"next":{"fields":{"slug":"/TIL/4-08/4-08/"},"frontmatter":{"title":"4/08"}}},"pageContext":{"id":"a93c802f-dbe5-50fe-b7cb-088621d545c2","previousPostId":"c0a95435-7ebd-53a9-aaa5-36b062be0a6d","nextPostId":"9b0d58dd-4fb9-5ac9-a292-b9d9d547efe7"}},
+    "staticQueryHashes": ["2841359383","3257411868"]}
