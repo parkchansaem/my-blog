@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[my develop blog daily learning memo]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 27 Apr 2022 09:03:05 GMT</lastBuildDate><item><title><![CDATA[4/15 TIL]]></title><description><![CDATA[클래스: 함수와 같은 의도로 코드를 정리하기 위해 사용함, 함수보다 한 발 더 나아가 관련된 함수와 변수를 하나로 묶어서 정리할 수 있습니다. 관련 있는 통계학/경제학/정치학을 사회과학이라는 큰 카테고리로 묶는 것과 같음
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[my develop blog daily learning memo]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 28 Apr 2022 08:36:31 GMT</lastBuildDate><item><title><![CDATA[4/15 TIL]]></title><description><![CDATA[클래스: 함수와 같은 의도로 코드를 정리하기 위해 사용함, 함수보다 한 발 더 나아가 관련된 함수와 변수를 하나로 묶어서 정리할 수 있습니다. 관련 있는 통계학/경제학/정치학을 사회과학이라는 큰 카테고리로 묶는 것과 같음
 클래스는 class…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/TIL/4-15/4-15/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/TIL/4-15/4-15/</guid><pubDate>Fri, 15 Apr 2022 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;클래스: 함수와 같은 의도로 코드를 정리하기 위해 사용함, 함수보다 한 발 더 나아가 관련된 함수와 변수를 하나로 묶어서 정리할 수 있습니다. 관련 있는 통계학/경제학/정치학을 사회과학이라는 큰 카테고리로 묶는 것과 같음
 클래스는 class 키워드로 정의할수있고 함수와 같은 원리로 정의 자체는 아무런 동작을 수행하지않고 클래스 내의 정의된 함수를 특별히 매서드라고 함. 이때 함수의 첫 파라미터로 self를 추가해야함&lt;/p&gt;
 &lt;p&gt;튜풀-&gt;리스트는 []으로 둘러싸지만 튜플은 ()으로 둘러싸고 리스트는 그 값의 생성, 삭제, 수정이 가능하지만 튜플은 그 값을 바꿀 수 없다.&lt;/p&gt;
@@ -310,7 +310,65 @@ SQL(structured query language):데이터 관리를 위해 설계된 특수 목�
 -&gt;데이터 제어언어-grant작업 수행권한 부여,revoke 권한 박탈
 rdbms와 noSQL과의 차이: 형태가 다름, rdbms는 정형데이터로 스키마는 고정적이고 장점은 안정적임 noSQL로는 mongDB가 있음
 noSQL:확장가능성, 스키마 없는 데이터 모델에 유리, column, document, key-value등 다양하다.
-MongoDB:Bson(Binary JSON)기반 key-value store,JSON 형태 문서, collection-&gt;Document-&gt;key:value Data&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My Second Post!]]></title><description><![CDATA[Wow! I love blogging so much already. Did you know that “despite its name, salted duck eggs can also be made from
+MongoDB:Bson(Binary JSON)기반 key-value store,JSON 형태 문서, collection-&gt;Document-&gt;key:value Data&lt;/p&gt;</content:encoded></item><item><title><![CDATA[4/04]]></title><description><![CDATA[…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/TIL/4-04/4-04/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/TIL/4-04/4-04/</guid><pubDate>Mon, 04 Apr 2022 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;데이터 과학: 다양한 데이터로부터 지식과 인사이트를 추출하는데 과학적 방법론, 프로세스, 알고리즘, 시스템 등을 동원하는 융합분야
+데이터 분석: 유용한 정보를 발굴하고 결론 내용을 알리며 의사결정을 지원하는 것을 목표로 데이터를 정리, 변환 모델링 하는 과정
+빅데이터: 단일 컴퓨터로 처리할 수없는 양의 데이터를 여러대의 컴퓨터로 분산하여 처리하는 기술&lt;/p&gt;
+&lt;p&gt;인공지능AI: 인간의 지능을 가진 컴퓨터 시스템
+기계학습Machine Learning(ML):인공지능의 한 분야로 컴퓨터가 학습할수 있도록 하는 알고리즘과 기술을 개발하는 분야
+딥러닝 Deep Learning:기계학습의 한 분야로 인공신경망에 기반하여 기계학습의 알고리즘을 구현하는 분야&lt;/p&gt;
+&lt;h2&gt;기계학습과 딥러닝의 차이&lt;/h2&gt;
+&lt;p&gt;-&gt;데이터량의 차이가 있다.데이터의 양이 많고 컴퓨팅 파워가 약하면 기계학습, 데이터가 적고 컴퓨팅 파워가 좋으면 딥러닝을 사용하는 것이 효율적이다.&lt;/p&gt;
+&lt;p&gt;Data Scientist: 수학 필요
+Data Engineer: 프로그래밍 필요
+Data Analyst: 도메인지식, 커뮤니케이션 필요
+-&gt; 데이터가 주어졌을 때 입력된 데이터 사이의 관계를 파악하여 원하는 결과 및 인사이트를 얻어내는 과정
+데이터 애널리스트 프로세스
+-&gt; 문제정의: 분석의 목적, 가설 수립, 비즈니스와의 관계, 분석 지표, 분석 예상시간등 계획을 수립하는 단계
+-&gt; 데이터수집: 문제와 관계가 있는 데이터를 모으는 단계
+-&gt;데이터 처리: EDA탐색적 데이터를분석 수행,수집한 데이터에서 필요한 데이터와 분석하기 쉬운 데이터의 형태로 가공하는 단계
+-&gt;데이터 분석: 목적을 달성하기 위해 데이터에서 결과를 얻어내는 단계,여러가지 분석방법 사용 및 모델링, 알고리즘 생성
+-&gt;리포팅 및 피드백: 분석된 결과로 상대를 설득, 모델의 성능 평가 및 서비스 적용&lt;/p&gt;
+&lt;p&gt;데이터 애널리스트 매써드
+-&gt; 빈도분석:데이터의 빈도를 확인하여 데이터의 특징을 분석하는 방법
+-&gt;기술통계분석:평균,중간값,최빈값,표준편차등으로 데이터의 집단을 분석하는 방법
+-&gt;상관관계분석:두 변수의 관계를 나타내는 분석방법
+-&gt;회귀분석: 데이터의 상관관계를 통해 수치 데이터를 예측하는 분석방법
+-&gt;판별분석: 독립변수와 종속변수가 있는 데이터를 이용하여 이산형, 범주형 결과를 예측하는 분석방법
+-&gt;군집분석: 종속변수가 없는 데이터의 집합에서 비슷한 특징을 갖는 데이터끼리 그룹핑하는 분석방법&lt;/p&gt;
+&lt;h2&gt;Machine Learning&lt;/h2&gt;
+&lt;p&gt;-&gt;인공지능의 한 분야로 데이터를 활용하여 컴퓨터가 학습할 수 있도록 하는 알고리즘과 기술을 개발하는 분야(출력변수=함수(입력변수))&lt;/p&gt;
+&lt;p&gt;-&gt;변수(데이터,자료)의 형태
+입력변수와 출력변수의 변수의 형태에 따라서 머신러닝의 전처리과정, 학습방법, 알고리즘이 달라짐
+범주형:명목형은 단순히 분류된 자료로 성별,혈액형등이 있다.
+순서형은 값들이 이산적이고 순서가 존재하는 데이터 성적 등수,달리기 순서등이 있다.
+수치형:이산형은수치로 표현되지만 소수점으로 표현되지 못하는 데이터로 출근횟수, 고객수, 재고량등이 있다.
+연속형:수치로 표현되며 소수점을 갖는 데이터로 신장, 체중 등이 있다.&lt;/p&gt;
+&lt;p&gt;지도학습과 비지도학습
+-&gt;지도학습은 정답을 알려주고 학습함
+회귀:출력변수가 연속형, 분류: 출력변수가 범주형
+-&gt;비지도학습은 정답을 알려주지 않고 학습함
+군집:유사한 데이터를 그룹화(라벨링을 통해 지도학습으로 이용하기도 함)&lt;/p&gt;
+&lt;p&gt;모델의 종류
+회귀모델: 수치형 데이터 예측, 데이터가 많을수록 성능이 향상됨
+분류모델: 범주형 데이터 예측, 데이터의 특징에 따라 모델의 성능이 달라짐
+군집모델: 유사한 데이터 그룹화, 아웃라이어를 제거할때 사용함&lt;/p&gt;
+&lt;p&gt;Computer:컴퓨터는 계산을 수행하는 기계
+Computer Structure:중앙처리장치, 주기억장치, 보조기억장치, CPU,RAM,SSD
+Operating System(OS):중앙처리장치,주기억장치,보조기억장치를 컨트롤 하는 소프트웨어
+Programing: os에서 cpu, ram, ssd 를 사용하여 컴퓨터에게 연산 과제를 수행하게 하는 절차 및 방법, 컴퓨터와 의사 소통의 수단, App을 만드는 방법&lt;/p&gt;
+&lt;p&gt;Run Excel:excel 실행, ssd에 있는 excel code를 ram으로 이동 loading
+Display Excel: ram에 excel code저장, excel 화면에 출력
+Calculate Numbers: cpu를 이용하여 연산 수행
+Save Excel file:ram에 있는 데이터 ssd에 저장&lt;/p&gt;
+&lt;p&gt;Compiler: code-&gt; binary
+동작에 따른 언어의 종류
+-&gt;컴파일러 언어: Compiler language:속도 빠름, 코드실행 전 compile 파일필요(build 과정필요)
+-&gt;인터프리터 언어: interpreter Language:속도 느림, compile 파일 없이 코드 실행(bulid과정이 필요없음)&lt;/p&gt;
+&lt;h2&gt;Python의 특징&lt;/h2&gt;
+&lt;p&gt;플랫폼에 독립적:어떠한 종류의 os에서도 같은 문법을 사용
+인터프리터 언어: 한줄씩 컴파일링 하면서 코드를 수행&gt; 처리 속도가 느림, Numpy가 파이썬의 느린 처리속도를 보완&gt; 데이터 분석 가능
+객체지향적:실제세계를 모델링하여 공통적인 기능을 묶어서 개발하는 방법&gt;협업이 용이함&lt;/p&gt;
+&lt;p&gt;인터프리터 언어를 현재 사용하는 이유는 하드웨어의 발전으로 인해 많이 사용함&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My Second Post!]]></title><description><![CDATA[Wow! I love blogging so much already. Did you know that “despite its name, salted duck eggs can also be made from
 chicken eggs, though the…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/my-second-post/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/my-second-post/</guid><pubDate>Wed, 06 May 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Wow! I love blogging so much already.&lt;/p&gt;
 &lt;p&gt;Did you know that “despite its name, salted duck eggs can also be made from
 chicken eggs, though the taste and texture will be somewhat different, and the
