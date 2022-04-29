@@ -1,4 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[my develop blog daily learning memo]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 28 Apr 2022 08:36:31 GMT</lastBuildDate><item><title><![CDATA[4/15 TIL]]></title><description><![CDATA[클래스: 함수와 같은 의도로 코드를 정리하기 위해 사용함, 함수보다 한 발 더 나아가 관련된 함수와 변수를 하나로 묶어서 정리할 수 있습니다. 관련 있는 통계학/경제학/정치학을 사회과학이라는 큰 카테고리로 묶는 것과 같음
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[my develop blog daily learning memo]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 29 Apr 2022 08:29:32 GMT</lastBuildDate><item><title><![CDATA[4/018]]></title><description><![CDATA[클래스=초기화자:초기화자를 사용하면 클래스를 생성할때 값을 함계 입력할 수 있습니다. init이라는 이름을 갖는 매서드를 초기화자라고 부르는데 이는 특별한 기능을 갖음, 초기화자가 정의되면 파이썬 인터프리터는 개체가 생성될때 자동으로 init…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/TIL/4-18/4-18/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/TIL/4-18/4-18/</guid><pubDate>Mon, 18 Apr 2022 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;클래스=초기화자:초기화자를 사용하면 클래스를 생성할때 값을 함계 입력할 수 있습니다. &lt;strong&gt;init&lt;/strong&gt;이라는 이름을 갖는 매서드를 초기화자라고 부르는데 이는 특별한 기능을 갖음, 초기화자가 정의되면 파이썬 인터프리터는 개체가 생성될때 자동으로 init매서드를 호출함&lt;/p&gt;
+&lt;p&gt;넘파이: 수학 및 과학 연산을 위한 파이썬 패키지 -기술통계 분석정도, matplotilb, pandas등 다른 python 모듈과 함께 사용&lt;/p&gt;
+&lt;p&gt;Ndarray: 넘파이에서 배열을 효율적으로 관리하기 위해 사용 리스트(튜플)을 업그레이드 해서 향상된 기능을 제공&lt;/p&gt;
+&lt;p&gt;넘파이 매서드
+-zeros:0으로 채움
+-ones:1로 채움
+-vstack:열로 정렬
+-hstack:행으로 정렬
+-reshape:리스트로 입력을 받아 재정렬
+-arange: for range문처럼 범위만큼의 수로 채움&lt;/p&gt;
+&lt;p&gt;넘파이 비교연산- Boolean형 값을 넣어도 슬라이싱하는 코드가 된다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[4/15 TIL]]></title><description><![CDATA[클래스: 함수와 같은 의도로 코드를 정리하기 위해 사용함, 함수보다 한 발 더 나아가 관련된 함수와 변수를 하나로 묶어서 정리할 수 있습니다. 관련 있는 통계학/경제학/정치학을 사회과학이라는 큰 카테고리로 묶는 것과 같음
 클래스는 class…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/TIL/4-15/4-15/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/TIL/4-15/4-15/</guid><pubDate>Fri, 15 Apr 2022 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;클래스: 함수와 같은 의도로 코드를 정리하기 위해 사용함, 함수보다 한 발 더 나아가 관련된 함수와 변수를 하나로 묶어서 정리할 수 있습니다. 관련 있는 통계학/경제학/정치학을 사회과학이라는 큰 카테고리로 묶는 것과 같음
 클래스는 class 키워드로 정의할수있고 함수와 같은 원리로 정의 자체는 아무런 동작을 수행하지않고 클래스 내의 정의된 함수를 특별히 매서드라고 함. 이때 함수의 첫 파라미터로 self를 추가해야함&lt;/p&gt;
 &lt;p&gt;튜풀-&gt;리스트는 []으로 둘러싸지만 튜플은 ()으로 둘러싸고 리스트는 그 값의 생성, 삭제, 수정이 가능하지만 튜플은 그 값을 바꿀 수 없다.&lt;/p&gt;
