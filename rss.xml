@@ -1,4 +1,101 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[my develop blog daily learning memo]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 03 May 2022 12:18:16 GMT</lastBuildDate><item><title><![CDATA[4/021]]></title><description><![CDATA[EDA란, 데이터 분석에 있어서 매우 중요한, 초기 분석의 단계를 의미하며 시각화 같은 도구를 통해서 패턴을 발견하거나 데이터의 특이성을 확인하거나 통계와 그래픽을 통해서 가설을 검증하는 과정 등을 포함합니다.
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[my develop blog daily learning memo]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 04 May 2022 10:32:41 GMT</lastBuildDate><item><title><![CDATA[4/22]]></title><description><![CDATA[정보처리기사
+운영체제 OS 컴퓨터 시스템의 자원들을 효율적으로 관리하며, 사용자가 컴퓨터를 편리하고 효과적으로 사용할 수 있도록 환경을 제공하는 여러 프로그램의 모임 사용자와 하드웨어 간의 인터페이스 동작하는 시스템 sw…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/TIL/4-22/4-22/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/TIL/4-22/4-22/</guid><pubDate>Fri, 22 Apr 2022 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;정보처리기사
+운영체제 OS&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;컴퓨터 시스템의 자원들을 효율적으로 관리하며, 사용자가 컴퓨터를 편리하고 효과적으로 사용할 수 있도록 환경을 제공하는 여러 프로그램의 모임&lt;/li&gt;
+&lt;li&gt;사용자와 하드웨어 간의 인터페이스&lt;/li&gt;
+&lt;li&gt;동작하는 시스템 sw의 일종, 다른 응용프로그램이 유용한 작업을 할 수 있도록 환경 제공,
+기능&lt;/li&gt;
+&lt;li&gt;프로세서, 기억장치, 입출력장치, 파일 및 정보 등의 자원관리&lt;/li&gt;
+&lt;li&gt;자원의 스케줄링 기능 제공&lt;/li&gt;
+&lt;li&gt;데이터 관리, 데이터 및 자원의 공유 기능 제공&lt;/li&gt;
+&lt;li&gt;시스템의 오류 검사 및 복구&lt;/li&gt;
+&lt;li&gt;다중 사용자와 다중 응용프로그램 환경하에서 자원의 현재 상태를 파악하고 자원 분배를 위한 스케줄을 담당한다.&lt;/li&gt;
+&lt;li&gt;Cpu, 메모리공간, 기억장치, 입출력 장치 등의 자원관리&lt;/li&gt;
+&lt;li&gt;입출력 장치와 사용자 프로그램 제어
+UNIX 시스템 구성&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;커널, 2.쉘-&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;사용자의 명령어를 인식하여 프로그램을 호출하고 명령을 수행하는 명령어 해석기&lt;/li&gt;
+&lt;li&gt;시스템과 사용자 간의 인터페이스 담당&lt;/li&gt;
+&lt;li&gt;DOS의 COMMAND, COM과 같은 기능 수행&lt;/li&gt;
+&lt;li&gt;주기억장치에 상주하지 않고, 명령어가 포함된 파일 형태로 존재, 보조기억장치에서 교체처리가 가능하다.&lt;/li&gt;
+&lt;li&gt;파이프라인 기능을 지원, 입출력 재지정을 통해 출력과 입력의 방향을 변경할 수 있다.&lt;/li&gt;
+&lt;li&gt;공용shell이나 사용자가 만든 shell을 사용할 수 있다.
+프로세스 상태: submit-&gt;ready-&gt;run/running-&gt; wait, block-&gt; exit,terminated
+스레드&lt;/li&gt;
+&lt;li&gt;프로세스 내에서의 작업단위&lt;/li&gt;
+&lt;li&gt;시스템의 여러 자원을 할당받아 실행하는 프로그램의 단위&lt;/li&gt;
+&lt;li&gt;하나의 프로세스에 하나의 스레드가 존재하는 경우, 단일 스레드&lt;/li&gt;
+&lt;li&gt;하나 이상의 스레드가 존재할 경우 , 다중 스레드&lt;/li&gt;
+&lt;li&gt;프로세스의 일부 특성을 갖고 있기 때문에-&gt; 경량 프로세스라 불림&lt;/li&gt;
+&lt;li&gt;스레드 기반 시스템에서 스레드는 독립적인 스케줄링의 최소 단위, 프로세스의 역할을 담당&lt;/li&gt;
+&lt;li&gt;동일 프로세스 ghkssrud에서 서로 독립적인 다중 수행 가능
+스레드 사용 장점&lt;/li&gt;
+&lt;li&gt;하나의 프로세스를 여러 개의 스레드를 생성하여 병행성 증진시킬 수 있다.&lt;/li&gt;
+&lt;li&gt;하드웨어, 운영체제 성능, 응용 프로그램의 처리율을 향상시킬 수 있다.&lt;/li&gt;
+&lt;li&gt;응용 프로그램의 응답시간을 단축 시킬 수 있다.&lt;/li&gt;
+&lt;li&gt;실행 환경을 공유시켜 기억장소의 낭비가 줄어든다.&lt;/li&gt;
+&lt;li&gt;프로세스들 간의 통신이 향상된다.&lt;/li&gt;
+&lt;li&gt;스레드는 공통적으로 접근 가능한 기억장치를 통해 효율적으로 통신한다.
+스레드의 분류&lt;/li&gt;
+&lt;li&gt;사용자 수준의 스레드: 사용자가 마든 라이브러리를 사용하여 스레드 운용, 속도는 빠르지만, 구현이 어렵다. -커널 수준의 스레드: 운영체제의 커널에 의해 스레드를 운용, 구현 쉽지만 , 속도 느리다.
+비산점 스케줄링&lt;/li&gt;
+&lt;li&gt;이미 할당된 cpu를 다른 프로세스가 강제로 빼앗아 사용할 수 없는 스케줄링 기법&lt;/li&gt;
+&lt;li&gt;프로세스가 cpu를 할당 받으면, 해당 프로세스가 완료될때까지 cpu사용&lt;/li&gt;
+&lt;li&gt;모든 프로세스에 대한 요구 공정하게 처리&lt;/li&gt;
+&lt;li&gt;프로세스 응답 시간 예측 용이, 일괄처리 방식에 적합&lt;/li&gt;
+&lt;li&gt;중요한 작업이 중요하징 낳은 작업을 기다리는 경우 발생&lt;/li&gt;
+&lt;li&gt;종류: FCFSS,SJF,HRN, 우선 순위, 기한부 알고리즘
+HRN:대기시간이 긴 프로세스의 경우, 우선 순위가 높아진다. SJF를 보완하기 위한 방식, 긴 작업과 짧은 작업 간의 지나친 불평등을 해소 할 수 있다.
+IPv6&lt;/li&gt;
+&lt;li&gt;IPv4의 주소 부족 문제를 해결하기 위해 개발&lt;/li&gt;
+&lt;li&gt;128비트의 긴 주소 사용, IPv4보다 자료전송속도가 빠르고 보안성 강화&lt;/li&gt;
+&lt;li&gt;인증성/기밀성/데이터 무결성의 지원으로 보안 문제를 해결할 수 있다.&lt;/li&gt;
+&lt;li&gt;IPv4와 호환성이 뛰어나다.&lt;/li&gt;
+&lt;li&gt;주소의 확장성, 융통성, 연동성이 뛰어나며, 실시간 흐름제어로 향상된 멀티미디어 기능을 지원한다.&lt;/li&gt;
+&lt;li&gt;멀티미디어의 실시간 처리 가능&lt;/li&gt;
+&lt;li&gt;트래픽클래스 플로우 라벨을 이용하여 등급별, 서비스별로 패킷을 구분할 수 있어 품질 보장 용이&lt;/li&gt;
+&lt;li&gt;IPv6 확장 헤더를 통해 네트워크 기능 확장이 용이하다.&lt;/li&gt;
+&lt;li&gt;각 부분을 16진수로 표현하고 콜론으로 구분한다.&lt;/li&gt;
+&lt;li&gt;자동으로 네트워크 환경구상이 가능&lt;/li&gt;
+&lt;li&gt;주소체계-&gt; 유니캐스트 단일:단일, 멀티캐스트 단일:다중, 애니캐스트 단일 가까이 단일
+OSI 7계층
+물리계층: 전송에 필요한 두 장치 간의 실제접속, 절단 등 기계적, 전기적, 기능적, 절차적 특성에 대한 규칙 정의, 물리적 전송 매체와 전송 신호 방식을 정의, 리피터와 허브
+데이터링크계층: 두개의 인접한 개방 시스템들 간에 신뢰성 있고, 효율적인 정보 전송을 할 수 있도록함, 송신측과 수신측의 속도 차이를 해결하기 위한 흐름 제어 기능, 프레임의 시작과 끝을 구분하기 위한 프레임의 동기화 기능, 오류의 검출과 회복을 위한 오류 제어기능, 프레임의 순서적 전송을 위한 순서제어 기능, 랜카드와 브리지 스위치등
+네트워크 계층: 개방 시스템들 간의 네트워크 연결을 관리하는 기능과 데이터의 교환 및 중계기능을 한다, 네트워크 연결을 설정, 유지, 해제하는 기능, 경로 설정, 데이터 교환및 중계 트래픽 제어, 패킷정보 전송 수행, 라우터
+전송계층:논리적 안정과 균일한 데이터 전송 서비스를 제공함으로써 종단 시스템 간에 투명한 데이터 전송 가능하게 한다, 상 하위 3계층 간의 인터페이스 담당, 종단시스템 간의 전송 연결 설정, 데이터 전송, 연결 해제 기능,주소 설정, 다중화, 오류제어, 흐름제어., TCP,UDP, 게이트웨이
+세션계층: 송 수신 측 간의 관련성을 유지하고 대화제어 담당, 대화 구성 및 동기 제어, 데이터 교환 관리 기능, 송수신 측 간의 대화 동기를 위해, 저송하는 정보의 일정한 부분에 체크점을 두어 정보의 수신 상태 체크, 이때의 체크점을 동기점이라고 한다, 동기점은 오류가 있는 데이터의 회복을 위해 사용하는 것으로 종류에는 소동기점, 대동기점이 있다.
+표현계층: 응용 계층으로부터 받은 데이터를 세션계층에 보내기 전에 통신에 적당한 형태로 변환하고, 세션계층에서 받은 데이터는 응용계층에 맞게 변환하는 기능, 서로 다른 데이터 표현 형태를 갖는 시스템 간의 상호 접속을 위해 필요한 계층, 코드변환 데이터암호 데이터 압축 구문검색 정보형식 변환 문맥관리 기능을 한다.
+응용계층: 사용자가 osi환경에 접근할 수 있도록 서브슬로 제공, 응용 프레스 간의 정보교환 전자 사서함, 파일전송 가상 터미널등의 서비스를 제공&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;TCP프로토콜&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;OSI7계층의 전송 계층에 해당&lt;/li&gt;
+&lt;li&gt;신뢰성 있는 연결형 서비스 제공&lt;/li&gt;
+&lt;li&gt;패킷의 다중화, 순서 제어, 오류 제어, 흐름 제어기능 제공&lt;/li&gt;
+&lt;li&gt;스트림 전송 기능 제공&lt;/li&gt;
+&lt;li&gt;TCP헤더는 포함&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;소프트웨어 개발 표준의 단계:초기,관리,정의, 정략적 관리, 최적화&lt;/p&gt;
+&lt;p&gt;디지털 트윈: 현실속 사물을 소프트웨어 가상화 모델, 실제 자산의 특성에 대한 정확한 정보 얻음, 자산 최적화, 돌발사고 최소화, 생산성 증가 등 설계부터 제조, 서비스에 이르는 모든 과정의 효율성을 향상시킬 수 있다.&lt;/p&gt;
+&lt;p&gt;하둡&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;오픈 소스를 기반으로 한 분산 컴퓨팅 플랫폼&lt;/li&gt;
+&lt;li&gt;일반 pc급 컴퓨터들로 가상화된 대형 스토리지 형성&lt;/li&gt;
+&lt;li&gt;그 안에 보관된 거대한 데이터 세트를 병렬로 처리할 수 있도록 개발된 자바 sw프레임 워크&lt;/li&gt;
+&lt;li&gt;구글 야후 사용&lt;/li&gt;
+&lt;li&gt;다양한 소스를 통해 생성된 빅데이터를 효율적으로 저장 및 처리
+보안요소&lt;/li&gt;
+&lt;li&gt;기밀성: 시스템 내의 정보와 자원은 인가된 사용자에게만 접근 허용, 정보가 전송 중에 노출되더라도 데이터를 읽을 수 없ㅅㅁ&lt;/li&gt;
+&lt;li&gt;무결성: 시스템 내의 정보는 오직 인가된 사용자만 수정할 수 있다&lt;/li&gt;
+&lt;li&gt;가용성: 인가 받은 사용자는 언제라도 사용가능&lt;/li&gt;
+&lt;li&gt;인증: 시스템 내의 정보와 자원을 사용하려는 사용자가 합법적인 사용자인지를 확인하는 모든 행위, 패스워드 인증용 카드, 지문검사가 해당&lt;/li&gt;
+&lt;li&gt;부인 방지: 데이터를 송수신한자가 송수신 사실을 부인할 수 없도록 송수신 증거를 제공&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[4/21]]></title><description><![CDATA[EDA란, 데이터 분석에 있어서 매우 중요한, 초기 분석의 단계를 의미하며 시각화 같은 도구를 통해서 패턴을 발견하거나 데이터의 특이성을 확인하거나 통계와 그래픽을 통해서 가설을 검증하는 과정 등을 포함합니다.
 EDA의 방법은 크게…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/TIL/4-21/4-21/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/TIL/4-21/4-21/</guid><pubDate>Thu, 21 Apr 2022 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;EDA란, 데이터 분석에 있어서 매우 중요한, 초기 분석의 단계를 의미하며 시각화 같은 도구를 통해서 패턴을 발견하거나 데이터의 특이성을 확인하거나 통계와 그래픽을 통해서 가설을 검증하는 과정 등을 포함합니다.
 EDA의 방법은 크게 2가지로 나눠지며 Graphic: 차트 혹은 그림 등을 이용하여 데이터를 확인하는 방법
 Non-Graphic:그래픽적인 요소를 사용하지 않는 방법으로, 주로 Summary Statistics를 통해 데이터를 확인하는 방법&lt;/p&gt;
@@ -132,11 +229,11 @@ AJAX(Asynchronous javascript and XML): 웹페이지에서 자바 스크립트를
 &lt;li&gt;Best fit: 단편화를 가장 작게 남기는 분할 영역에 배치시키는 방법&lt;/li&gt;
 &lt;li&gt;Worst fit: 단편화를 가장 많이 남기는 분할 영역에 배치시키는 방법
 비트연산자:^=xor:모든 비트가 같으면0, 하나라도 다르면 1,~=not&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[4/020]]></title><description><![CDATA[데이터프레임: 판다스 데이터 프레임은 다양한 데이터 타입을 이용하여 만들어 낼수 있는데요.(list,dictionary,series,ndarray). 개념적으로 데이터 프레임은 series…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/TIL/4-20/4-20/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/TIL/4-20/4-20/</guid><pubDate>Wed, 20 Apr 2022 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;데이터프레임: 판다스 데이터 프레임은 다양한 데이터 타입을 이용하여 만들어 낼수 있는데요.(list,dictionary,series,ndarray). 개념적으로 데이터 프레임은 series들을 하나의 열로 취급한 집합이라고 볼수 있음. 데이터를 표의 형태로 처리하는 자료구조로 보통 RDB환경에서 SQL로 테이블을 컨트롤 할 수 있는 수준의 기능들이 상당 부분 데이터프레임에 구현되어 있습니다.&lt;/p&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[4/20]]></title><description><![CDATA[데이터프레임: 판다스 데이터 프레임은 다양한 데이터 타입을 이용하여 만들어 낼수 있는데요.(list,dictionary,series,ndarray). 개념적으로 데이터 프레임은 series…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/TIL/4-20/4-20/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/TIL/4-20/4-20/</guid><pubDate>Wed, 20 Apr 2022 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;데이터프레임: 판다스 데이터 프레임은 다양한 데이터 타입을 이용하여 만들어 낼수 있는데요.(list,dictionary,series,ndarray). 개념적으로 데이터 프레임은 series들을 하나의 열로 취급한 집합이라고 볼수 있음. 데이터를 표의 형태로 처리하는 자료구조로 보통 RDB환경에서 SQL로 테이블을 컨트롤 할 수 있는 수준의 기능들이 상당 부분 데이터프레임에 구현되어 있습니다.&lt;/p&gt;
 &lt;p&gt;데이터프레임 그룹화 -복잡한 문제는 잘게 나누어 분서하고, 합쳐나가는 split-Apply-combine 전략을 사용해서 문제를 해결 할 수있습니다.&lt;/p&gt;
 &lt;p&gt;멀티인덱스:엑셀에서는 셀을 병합하는 형태로 컬럼으로 구분된 구조적인 데이터를 표현할 수 있습니다. 데이터프레임에서는 이를 멀티인덱스라고 부르고 영업이익과 당기순이익 안에 컨센서스와 잠정치라는 하이 데이터를 계층적으로 표현합니다. 판다스에서는 가장 왼쪽에 있는 영업이익과 당기순이익을 level0 인데스, 그다음 위치인 컨센서스와 잠정치를 level1인덱스라고 부립니다.&lt;/p&gt;
 &lt;p&gt;데이터 시각화:데이터 분석 결과를 쉽게 이해하기 위해서는 그래프 등의 도구를 사용해서 데이터를 시각화해야함,파이썬 matplotilb의 pyplot 모듈을 사용해서 매트랩과 비슷한 형태로 그래프를 그릴 수 있습니다.&lt;/p&gt;
-&lt;p&gt;EDA:데이터를 다각도에서 탐색하면서 데이터의 이해도를 높이는 과정입니다. 데이터의 이해도가 높아지면서 숨겨진 의미를 발견하고 잠재적인 문제를 미리 발견할수 있습니다. 이를 바탕으로 데이터를 보완하거나 기존의 가설을 수정할 수 있습니다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[4/019]]></title><description><![CDATA[판다스(Pandas) 라이브러리
+&lt;p&gt;EDA:데이터를 다각도에서 탐색하면서 데이터의 이해도를 높이는 과정입니다. 데이터의 이해도가 높아지면서 숨겨진 의미를 발견하고 잠재적인 문제를 미리 발견할수 있습니다. 이를 바탕으로 데이터를 보완하거나 기존의 가설을 수정할 수 있습니다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[4/19]]></title><description><![CDATA[판다스(Pandas) 라이브러리
 pandas…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/TIL/4-19/4-19/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/TIL/4-19/4-19/</guid><pubDate>Tue, 19 Apr 2022 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;판다스(Pandas) 라이브러리
 pandas는 데이터분석을 위한 고수준의 자료구조와 데이터 분석 도구를 제공, 여기서 고수준이란 사용자가 쉽게 데이터를 제어하고 시각화 할 수있는 메서드 -판다스는 시리즈와 데이터 프레임 두개의 자료구조를 사용함 -리스트를 사용해서 시리즈 객체로 업그레이드 할수 있음&lt;/p&gt;
 &lt;p&gt;판다스 시리즈의 데이터 타입 변환: 시리즈에 저장된 데이터가 문자열 타입으로 저장돼 있다고 가정해봅시다. 이러한 경우 덧셈 및 뺄셈 등의 연산을 적용할 수 없기 때문에 데이터 타입을 변경할 수 있어야 합니다.&lt;/p&gt;
@@ -155,7 +252,7 @@ sort_values - column를 기준으로 내림차순 정렬
 Fancy Index - 전체 데이터에서 원하는 데이터를 찾아오는 방법(iloc-배열의 순서에따라, loc-값을 따라)
 Mask - 데이터프레임에 조건식을 적용해주면 조건에 만족하는지 여부를 알려줌
 Join operation - SQL과 같이 join operation을 사용가능하며 merge() 를 이용
-Concat - 합치기&lt;/p&gt;</content:encoded></item><item><title><![CDATA[4/018]]></title><description><![CDATA[클래스=초기화자:초기화자를 사용하면 클래스를 생성할때 값을 함계 입력할 수 있습니다. init이라는 이름을 갖는 매서드를 초기화자라고 부르는데 이는 특별한 기능을 갖음, 초기화자가 정의되면 파이썬 인터프리터는 개체가 생성될때 자동으로 init…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/TIL/4-18/4-18/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/TIL/4-18/4-18/</guid><pubDate>Mon, 18 Apr 2022 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;클래스=초기화자:초기화자를 사용하면 클래스를 생성할때 값을 함계 입력할 수 있습니다. &lt;strong&gt;init&lt;/strong&gt;이라는 이름을 갖는 매서드를 초기화자라고 부르는데 이는 특별한 기능을 갖음, 초기화자가 정의되면 파이썬 인터프리터는 개체가 생성될때 자동으로 init매서드를 호출함&lt;/p&gt;
+Concat - 합치기&lt;/p&gt;</content:encoded></item><item><title><![CDATA[4/18]]></title><description><![CDATA[클래스=초기화자:초기화자를 사용하면 클래스를 생성할때 값을 함계 입력할 수 있습니다. init이라는 이름을 갖는 매서드를 초기화자라고 부르는데 이는 특별한 기능을 갖음, 초기화자가 정의되면 파이썬 인터프리터는 개체가 생성될때 자동으로 init…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/TIL/4-18/4-18/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/TIL/4-18/4-18/</guid><pubDate>Mon, 18 Apr 2022 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;클래스=초기화자:초기화자를 사용하면 클래스를 생성할때 값을 함계 입력할 수 있습니다. &lt;strong&gt;init&lt;/strong&gt;이라는 이름을 갖는 매서드를 초기화자라고 부르는데 이는 특별한 기능을 갖음, 초기화자가 정의되면 파이썬 인터프리터는 개체가 생성될때 자동으로 init매서드를 호출함&lt;/p&gt;
 &lt;p&gt;넘파이: 수학 및 과학 연산을 위한 파이썬 패키지 -기술통계 분석정도, matplotilb, pandas등 다른 python 모듈과 함께 사용&lt;/p&gt;
 &lt;p&gt;Ndarray: 넘파이에서 배열을 효율적으로 관리하기 위해 사용 리스트(튜플)을 업그레이드 해서 향상된 기능을 제공&lt;/p&gt;
 &lt;p&gt;넘파이 매서드
