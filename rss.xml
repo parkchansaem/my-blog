@@ -1,4 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[my develop blog daily learning memo]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 05 May 2022 12:36:19 GMT</lastBuildDate><item><title><![CDATA[4/25]]></title><description><![CDATA[데이터 크롤링: 크롤러는 자동화된 방법으로 웹을 탐색하는 컴퓨터 프로그램
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[my develop blog daily learning memo]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 06 May 2022 09:16:09 GMT</lastBuildDate><item><title><![CDATA[4/27]]></title><description><![CDATA[데이터베이스:데이터를 효율적으로 통합 관리할 수 있는 시스템 컴퓨터가 보급화되면서 (1980s…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/TIL/4-27/4-27/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/TIL/4-27/4-27/</guid><pubDate>Wed, 27 Apr 2022 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;데이터베이스:데이터를 효율적으로 통합 관리할 수 있는 시스템&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;컴퓨터가 보급화되면서 (1980s)처리해야 할 데이터가 늘어남&lt;/li&gt;
+&lt;li&gt;여러 회사들에서 대규모 데이터를 관리하기 위해서 통합된 환경이 필요함&lt;/li&gt;
+&lt;li&gt;데이터들을 표현할 수 있는 다양한 모델이 등장&lt;/li&gt;
+&lt;li&gt;데이터를 체계적으로 관리할 수 있는 공간을 database로 정의함&lt;/li&gt;
+&lt;li&gt;데이터베이스를 관리하는 시스템을 DataBase Management Ststem으로 정의함&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;데이터베이스를 사용하는 이유&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;데이터베이스라는 개념이 나타나기 이전엔, file단위로 데이터를 관리함&lt;/li&gt;
+&lt;li&gt;데이터를 효율적으로 관리하기 힘든 여러가지 문제들이 발생
+기존 시스템의 문제점&lt;/li&gt;
+&lt;li&gt;데이터가 여러 형태로 여기저기 저장되면서 통일성을 잃고, 통합되지 않음&lt;/li&gt;
+&lt;li&gt;데이터를 처리하기 위해서는 매번 application이 필요함&lt;/li&gt;
+&lt;li&gt;데이터의 상태를 파일 자체적으로 확인하기 힘듬&lt;/li&gt;
+&lt;li&gt;여러 명의 사용자가 동시에 접근해서 사용하기 힘듬&lt;/li&gt;
+&lt;li&gt;파일의 일부가 수정되었을 때, 전체적인 데이터가 통일성을 유지하기 힘듬&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;RDBMS
+row가 데이터의 단위= 튜플
+Domain은 coloumn이 정의되는 집합=&gt; data type
+Primary key(PK):RDBMS에서 제일 중요 테이터베이스에서 유일한 값, 검색할때 가장 중요한 기준이 됨
+id를 pk로 사용하는 이유는 정렬이 되어있음, 메모리적으로 손해를 볼수 있지만 서치타임이 확연히 빨라서 사용&lt;/p&gt;</content:encoded></item><item><title><![CDATA[4/25]]></title><description><![CDATA[데이터 크롤링: 크롤러는 자동화된 방법으로 웹을 탐색하는 컴퓨터 프로그램
 웹 크롤링: 웹 서비스 내 정보를 수집하는 일]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/TIL/4-25/4-25/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/TIL/4-25/4-25/</guid><pubDate>Mon, 25 Apr 2022 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;데이터 크롤링: 크롤러는 자동화된 방법으로 웹을 탐색하는 컴퓨터 프로그램
 웹 크롤링: 웹 서비스 내 정보를 수집하는 일&lt;/p&gt;</content:encoded></item><item><title><![CDATA[4/22]]></title><description><![CDATA[정보처리기사
 운영체제 OS 컴퓨터 시스템의 자원들을 효율적으로 관리하며, 사용자가 컴퓨터를 편리하고 효과적으로 사용할 수 있도록 환경을 제공하는 여러 프로그램의 모임 사용자와 하드웨어 간의 인터페이스 동작하는 시스템 sw…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/TIL/4-22/4-22/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/TIL/4-22/4-22/</guid><pubDate>Fri, 22 Apr 2022 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;정보처리기사
