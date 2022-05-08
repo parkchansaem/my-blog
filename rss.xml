@@ -1,4 +1,58 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[my develop blog daily learning memo]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 06 May 2022 09:16:09 GMT</lastBuildDate><item><title><![CDATA[4/27]]></title><description><![CDATA[데이터베이스:데이터를 효율적으로 통합 관리할 수 있는 시스템 컴퓨터가 보급화되면서 (1980s…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/TIL/4-27/4-27/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/TIL/4-27/4-27/</guid><pubDate>Wed, 27 Apr 2022 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;데이터베이스:데이터를 효율적으로 통합 관리할 수 있는 시스템&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[my develop blog daily learning memo]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 08 May 2022 11:37:10 GMT</lastBuildDate><item><title><![CDATA[4/28]]></title><description><![CDATA[Structured query language(SQL) DBMS와 사용자가 소통하기 위해 정의된 언어 RDBMS를 대상으로 정의됨 DDL,DML,DCL로 구분하여 정의 RDBMS에서 데이터를 생성 및 조작하는 모든 기능을 구현할 수 있음 RDBMS…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/TIL/4-28/4-28/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/TIL/4-28/4-28/</guid><pubDate>Thu, 28 Apr 2022 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;Structured query language(SQL)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;DBMS와 사용자가 소통하기 위해 정의된 언어&lt;/li&gt;
+&lt;li&gt;RDBMS를 대상으로 정의됨&lt;/li&gt;
+&lt;li&gt;DDL,DML,DCL로 구분하여 정의&lt;/li&gt;
+&lt;li&gt;RDBMS에서 데이터를 생성 및 조작하는 모든 기능을 구현할 수 있음&lt;/li&gt;
+&lt;li&gt;RDBMS마다 조금씩 차이가 있지만, 기본적으로 정의되는 문법은 거의같음&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;SQL 명령어
+DDL:테이블을 다룰때 사용(table level)
+DML:데이터를 처리할 때 사용(row level)
+DCL:데이터베이스에 필요한 여러가지 부가기능&lt;/p&gt;
+&lt;p&gt;Cursor(커서)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Python, java, c++같은 다른 언어를 사용하여, 절차적으로 명령을 수행하고 싶을때 사용하는 개념&lt;/li&gt;
+&lt;li&gt;SELECT등에 의한 데이터베이스 검색 실행 결과를 한줄씩 처리하기 위해서 데이터베이스 서버 측의 결과와 행 위치 등을 나타내는 개념&lt;/li&gt;
+&lt;li&gt;DBMS를 이용해서 프로그래밍이 가능&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Logical Schema&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;DB의 논리구조를 설명하는 개념&lt;/li&gt;
+&lt;li&gt;DB를 구성하고 있는 테이블(데이터)와 사이의 관계(기능)을 정의함&lt;/li&gt;
+&lt;li&gt;Schema의 설계가 DB 설계의 첫번째&lt;/li&gt;
+&lt;li&gt;Entity-Relationship Diagram(ERD)를 이용하여 정의&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;DBMS&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;DBMS도 결국 컴퓨터 시스템입니다.&lt;/li&gt;
+&lt;li&gt;사용자로부터 입력받은 query를 내부 시스템이 이해하고 처리합니다.&lt;/li&gt;
+&lt;li&gt;SQL을 시스템적으로 이해하고 성능개선을 하는 튜닝 작업도 있음&lt;/li&gt;
+&lt;li&gt;데이터베이스의 연구는 DBMS 내부의 여러가지 개념들을 고도화하는데에 있습니다.&lt;/li&gt;
+&lt;li&gt;DBMS마다 시스템의 정의와 목적이 다릅니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;ERD(Entity-relationship deiagram)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;데이터베이스를 설계하기 위해 사용&lt;/li&gt;
+&lt;li&gt;서비스의 기능 명세(documentation)&lt;/li&gt;
+&lt;li&gt;ERD 디자인&lt;/li&gt;
+&lt;li&gt;Logical schema 설계&lt;/li&gt;
+&lt;li&gt;Physical schema 설계&lt;/li&gt;
+&lt;li&gt;Implementation 설계(mySQL:local, firebase:Baas, dynamoDB:BaaS)
+ERD-Entity Set&lt;/li&gt;
+&lt;li&gt;Entity란 실제로 존재하는 하나의개념&lt;/li&gt;
+&lt;li&gt;Entity Set란 Entity를 정의하고 있는 집합으로 속성을 정의함&lt;/li&gt;
+&lt;li&gt;attribute중에 하나에 반드시 Primary key가 있어야함
+ERD-Relationship Set&lt;/li&gt;
+&lt;li&gt;Relationship이란 Entity 사이의 관계&lt;/li&gt;
+&lt;li&gt;주로 어떤 기능을 나타냄&lt;/li&gt;
+&lt;li&gt;Relationship Set이란, entity들 사이의 모든 relationship을 모은 집합&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Immutable: 값이 변경이 안됨
+ERD-Ternary Relationship: Relationship이 정의되는 Entity가 3개&lt;/p&gt;
+&lt;p&gt;ERD-Mapping Cardinalities:는 대응관계 방향이 없고 원투원, 원투매니, 매니투원, 매니투매니가 있음&lt;/p&gt;
+&lt;p&gt;ERD = Conceptual Model
+Schema = Logical Model&lt;/p&gt;</content:encoded></item><item><title><![CDATA[4/27]]></title><description><![CDATA[데이터베이스:데이터를 효율적으로 통합 관리할 수 있는 시스템 컴퓨터가 보급화되면서 (1980s…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/TIL/4-27/4-27/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/TIL/4-27/4-27/</guid><pubDate>Wed, 27 Apr 2022 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;데이터베이스:데이터를 효율적으로 통합 관리할 수 있는 시스템&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;컴퓨터가 보급화되면서 (1980s)처리해야 할 데이터가 늘어남&lt;/li&gt;
 &lt;li&gt;여러 회사들에서 대규모 데이터를 관리하기 위해서 통합된 환경이 필요함&lt;/li&gt;
