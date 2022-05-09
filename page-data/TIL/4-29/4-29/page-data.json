@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-blog-post-js",
+    "path": "/TIL/4-29/4-29/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"Chan saem 의 블로그"}},"markdownRemark":{"id":"54be397e-d9b9-5da6-b783-5b5210d2785b","excerpt":"MySQL: 세계에서 가장 많이 사용되는 오픈소스 RDBMS orcale회사가 관리하고 있는 오픈소스 RDBMS 1995년에 처음 발표되었으며, 현재 최신버전 8.0 C,c++로 개발되엇으며 대부분의 운영체제를 지원함 MySQL자체를 설치해서 Shell…","html":"<p>MySQL: 세계에서 가장 많이 사용되는 오픈소스 RDBMS</p>\n<ul>\n<li>orcale회사가 관리하고 있는 오픈소스 RDBMS</li>\n<li>1995년에 처음 발표되었으며, 현재 최신버전 8.0</li>\n<li>C,c++로 개발되엇으며 대부분의 운영체제를 지원함</li>\n<li>MySQL자체를 설치해서 Shell환경에서도 운영가능하나, 보통MySQL Workbench를 사용하여 관리함</li>\n<li>PyMySQL 라이브러리를 사용하면 Python에서도 사용가능</li>\n</ul>","frontmatter":{"title":"4/29","date":"April 29, 2022","description":"공부내역"}},"previous":{"fields":{"slug":"/TIL/4-28/4-28/"},"frontmatter":{"title":"4/28"}},"next":null},"pageContext":{"id":"54be397e-d9b9-5da6-b783-5b5210d2785b","previousPostId":"86659e98-d77d-55b3-bbde-65cb012eab3f","nextPostId":null}},
+    "staticQueryHashes": ["2841359383","3257411868"]}
