@@ -1,4 +1,83 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[my develop blog daily learning memo]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 14 May 2022 08:05:30 GMT</lastBuildDate><item><title><![CDATA[5/06]]></title><description><![CDATA[Kernel: 하드웨어와 응용프로그램을 이어주는 운영체제의 핵심 시스템소프트웨어
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[my develop blog daily learning memo]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 16 May 2022 08:09:00 GMT</lastBuildDate><item><title><![CDATA[5/10]]></title><description><![CDATA[질적 변수/ 양적 변수 질적변수: 변수의 값이 특정 범주에 포함되도록 표현가능한 변수 양정변수: 변수의 값을 숫자로 나타낼 수 있는 변수
+이산 변수/ 연속 변수 이산변수: 셀수 있는 변수 ex…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/TIL/5-10/5-10/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/TIL/5-10/5-10/</guid><pubDate>Tue, 10 May 2022 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;질적 변수/ 양적 변수&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;질적변수: 변수의 값이 특정 범주에 포함되도록 표현가능한 변수&lt;/li&gt;
+&lt;li&gt;양정변수: 변수의 값을 숫자로 나타낼 수 있는 변수
+이산 변수/ 연속 변수&lt;/li&gt;
+&lt;li&gt;이산변수: 셀수 있는 변수 ex)아파트 층수 회사의 직원의 수&lt;/li&gt;
+&lt;li&gt;연속변수: 셀수 없는 변수, 이산변수와 다르게 변수의 각 값 사이에 무수히 많은 또 다른 값들이 존재하는 특성을 뜀 ex) 사람의 키, 몸무게, 나이
+간격 변수, 비율 변수&lt;/li&gt;
+&lt;li&gt;간격변수: 대소 관계와 함께 그 차이에도 의미를 두는 변수 ex)연도, 온도&lt;/li&gt;
+&lt;li&gt;비율 변수: 대소 관계, 차이, 비 ,모두에 의미를 두는 변수 ex)길이, 무게
+명목변수/ 순위 변수&lt;/li&gt;
+&lt;li&gt;명목 변수: 단순히 분류하기 위한 변수 ex)학생번호, 전화번호&lt;/li&gt;
+&lt;li&gt;순위 변수: 순서 관계 및 대소 관계에 의미를 둔 변수 ex) 성적순위, 설문조사의 만족도
+변수 분류의 중요성&lt;/li&gt;
+&lt;li&gt;데이터 크기는 상대적으로 pandas 활용시 쉽게 측정가능&lt;/li&gt;
+&lt;li&gt;하지만, 변수의 분류는 변수의 성질을 파악하는 분석가로서의 지식이 필요&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;데이터 분석: 평균 혹은 분산 등의 수치 지표에 따라 데이터를 요약, 그림을 그려 시각적으로 데이터를 살펴보는 방법
+수치 표현 규칙: 시각적으로 결과 파악을 수월하게 하기위해 소수점 3자리까지만, 유효숫자 표현을 제한
+대표값이란&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;주어진 데이터를 대표하는 특정값&lt;/li&gt;
+&lt;li&gt;데이터를 하나의 값으로 요약한 지표&lt;/li&gt;
+&lt;li&gt;평균값, 중앙값, 최빈값 등&lt;/li&gt;
+&lt;li&gt;학창시절 어떤 시험의 난이도를 알고 싶다라고 할때, 전체 학생의 시험 점수를 알고 있지 못해도, 평균 점수가 높은지 낮은지 여부에 따라 시험의 난이도를 파악할 수 있다.
+중앙값(Median)&lt;/li&gt;
+&lt;li&gt;데이터를 크기 순서대로 나열하였을 때, 정확하게 중앙에 위치한 값&lt;/li&gt;
+&lt;li&gt;데이터의 이상값이 존재할 때, 평균값보다 대표값을 잘 표현해낸다. 즉 이상값의 영향을 덜 받는다.
+최빈값(mode)&lt;/li&gt;
+&lt;li&gt;데이터에서 가장 많이 나타나는 값&lt;/li&gt;
+&lt;li&gt;주로, 범주형 변수(질적 변수)의 대표값을 구할 때 사용됨(점수와 같은 수치형 변수는, 동일한 점수가 여러번 반복되는 경우가 거의 드물기 때문)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;산포도&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;대표값을 중심으로 자료들이 흩어져 있는 정도&lt;/li&gt;
+&lt;li&gt;하나의 수치로서 표현된다, 수치가 작을수록 자료들이 대표값에 밀집, 수치가 클수록 자료들이 대표값을 중심으로 멀리 흩어져 있다&lt;/li&gt;
+&lt;li&gt;산포도를 대표하는 값들: 분산, 표준편차, 사분위
+편차&lt;/li&gt;
+&lt;li&gt;산포도를 구하는 첫걸음으로 각 데이터가 평균으로부터 어느 정도 떨어져 있는지를 나타내는 지표
+분산&lt;/li&gt;
+&lt;li&gt;편차의 제곱을 합산하여 평균을 계산한 값, 편차의 절대값을 합산하여 평균을 계산하는 방법도 있으나, 거의 활용되지 않는다.&lt;/li&gt;
+&lt;li&gt;편차의 평균은 항상 0이 되는 문제를 고려하였다.
+표준편차&lt;/li&gt;
+&lt;li&gt;평균의 단위는 원래의 데이터 단위와 다르지 않지만, 분산의 단위는 점수의 제곱으로 표현된다는 점에서 이해하기 어려운 단위이다.&lt;/li&gt;
+&lt;li&gt;따라서, 분산에 제곱근을 취하여, 원래의 데이터와 동일한 단위를 쓰도록 만들어진 산포도의 지표를 표준편차라고 한다.
+범위(Range)&lt;/li&gt;
+&lt;li&gt;데이터의 최대값과 최소값만으로 산포도를 표현하는 방법&lt;/li&gt;
+&lt;li&gt;분산 혹은 표준편차와는 달리, 데이터 전체를 담은 표현 방식이 아니다.&lt;/li&gt;
+&lt;li&gt;즉, 최대값- 최소값의 차이가 크면 산포도가 크고, 차이가 작으면 산포도가 작다는 것으로 표현된다.&lt;/li&gt;
+&lt;li&gt;값을 2개만 활용하기에, 개략적인 지표이며, 이상값을 반영하는 데 있어서 수준이 낮은 지표이다.
+사분위 범위(interquartile range)&lt;/li&gt;
+&lt;li&gt;범위라는 값은 최대값 최소값만을 활용하고 있어서 이상값을 반영한 산포도를 표현하는 것이 어렵지만, 사분위 범위는 이상값을 반영한 산포도를 표현하는 것에 더욱 효과적이다.&lt;/li&gt;
+&lt;li&gt;분산과 표준편차는 평균값에 대해 정의되는 산포도 지표인 반면, 산분위 범위는 중앙값에 대해 정의되는 산포도 지표이다.
+정규화&lt;/li&gt;
+&lt;li&gt;데이터를 통일된 지표로 변환하는 것&lt;/li&gt;
+&lt;li&gt;대표적으로, 표준화와 편차값이 활용됨
+표준화&lt;/li&gt;
+&lt;li&gt;데이터에서 평균을 빼고, 표준편차로 나누는 작업&lt;/li&gt;
+&lt;li&gt;표준화된 데이터는 표준화 변량 혹은 z점수로 불림
+편차값&lt;/li&gt;
+&lt;li&gt;평균이 50, 표준편차가 10되도록 정규화한 값
+시각화&lt;/li&gt;
+&lt;li&gt;describe() 함수로 평균, 분산, 사분위수 등의 지표로 데이터의 중심이나 산포도를 파악할 수 있다.&lt;/li&gt;
+&lt;li&gt;하지만, 데이터의 분포 상태를 세부적으로 알고 싶을 때, 시각화 방법론들이 주로 활용된다.
+도수분포표(Frequency Distribution)&lt;/li&gt;
+&lt;li&gt;데이터가 가지는 값들을 몇개의 구간으로 나누고, 각 구간에 몇개의 데이터가 포함되는지 세는 방법&lt;/li&gt;
+&lt;li&gt;즉, 분할된 구간과 데이터의 개수를 표로 정리한것
+도수분포표의 누적상대도수: 해당 계급의 데이터까지 전체 데이터 개수 대비 어느 정도의 비율을 차지하는 지
+히스토그램(Histogram)&lt;/li&gt;
+&lt;li&gt;도수분포표를 막대그래프로 나타낸 것&lt;/li&gt;
+&lt;li&gt;데이터의 분포 상태를 더욱 시각적으로 파악할 수 있다.&lt;/li&gt;
+&lt;li&gt;matplotlib이란 python기반 대표적인 데이터 시각화 라이브러리를 활용
+상자그림(box plot)&lt;/li&gt;
+&lt;li&gt;데이터의 산포도를 표현하는 그림&lt;/li&gt;
+&lt;li&gt;데이터의 분포와 이상값을 시각적으로 파악&lt;/li&gt;
+&lt;li&gt;Q1,Q2,Q3,IQR을 사용해서 그래프를 그린다.&lt;/li&gt;
+&lt;li&gt;박스 바깥의 가로선들은 이상값을 분리하는 기준으로서, 아래 경계는 Q1-1.5* IQR, 위 경게는 Q3+1.5 * IQR이다.&lt;/li&gt;
+&lt;li&gt;경계 밖 데이터는 이상값으로 보면 된다.&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[5/06]]></title><description><![CDATA[Kernel: 하드웨어와 응용프로그램을 이어주는 운영체제의 핵심 시스템소프트웨어
 Shell: 운영체제의 커널과 사용자를 이어주는 소프트웨어 Commit 할 때 기억해야 할 것 commit…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/TIL/5-06/5-06/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/TIL/5-06/5-06/</guid><pubDate>Fri, 06 May 2022 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;Kernel: 하드웨어와 응용프로그램을 이어주는 운영체제의 핵심 시스템소프트웨어
 Shell: 운영체제의 커널과 사용자를 이어주는 소프트웨어&lt;/p&gt;
 &lt;p&gt;Commit 할 때 기억해야 할 것&lt;/p&gt;
