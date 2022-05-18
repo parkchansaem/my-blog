@@ -1,4 +1,61 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[my develop blog daily learning memo]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 17 May 2022 07:42:29 GMT</lastBuildDate><item><title><![CDATA[5/11]]></title><description><![CDATA[Feature space 주어진 데이터를 input vector라고 할 때, input vector 중에 필요한 특징만을 추출하여 벡터로 표현한 것을 feature vector…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/TIL/5-11/5-11/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/TIL/5-11/5-11/</guid><pubDate>Wed, 11 May 2022 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;Feature space&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[my develop blog daily learning memo]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 18 May 2022 08:27:02 GMT</lastBuildDate><item><title><![CDATA[5/12]]></title><description><![CDATA[기술통계(Descriptive Statistics…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/TIL/5-12/5-12/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/TIL/5-12/5-12/</guid><pubDate>Thu, 12 May 2022 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;기술통계(Descriptive Statistics): 수집한 데이터를 분석하여 대상들의 속성을 파악하는 통계 방법&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;중심경향값: 전체 자료를 대표할 수 있는 수치들(평균,최빈값)
+&lt;ul&gt;
+&lt;li&gt;평균: 전체 자료가 가지는 수치들의 총합을 전체 자료 수로 나눈 수치&lt;/li&gt;
+&lt;li&gt;중앙값: 최대값과 최소값의 한가운데 수치&lt;/li&gt;
+&lt;li&gt;최빈값: 가장 많은 빈도를 가진 수치&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;분산도: 전체 자료가 얼마나 퍼져 있는지를 알 수 있는 수치들(분산)
+&lt;ul&gt;
+&lt;li&gt;분산: 각 자료가 평균으로 부터 떨어진 정도를 제곱한 수치들의 평균&lt;/li&gt;
+&lt;li&gt;표준편차: 분산의 제곱근&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;상관계수: 두 변수 간의 관계의 크기(Pearson)
+&lt;ul&gt;
+&lt;li&gt;공분산: 두 변수가 함께 각자의 평균으로부터 멀어지는 정도, 한 변수가 자신의 평균으로부터 멀어질 때, 다른 변수가 자신의 평균으로부터 멀어지는 정도를 의미&lt;/li&gt;
+&lt;li&gt;상관계수:두 변수 간의 관계로, 하나의 변수가 변화함에 따라 다른 변수가 변화하는 정도를 의미&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;회귀계수: 독립변수가 종속변수에 미치는 영향의 크기y=wx
+&lt;ul&gt;
+&lt;li&gt;오차(Error)를 최소화하는 방향으로 직선이 생성됨&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;회구분석을 하는 이유는 실제 데이터에서 오류를 함께하는 경우가 많아 이를 최대한 비슷하게 나타내기 위해 이용&lt;/h4&gt;
+&lt;p&gt;추론통계(Inferential Statistics) : 수집한 데이터를 확인하고 데이터의 표본이 되는 값을 찾아서, 기술통계를 이용하여 모집단의 속성들을 유추하는 통계 기법&lt;/p&gt;
+&lt;p&gt;통계분석 워크플로우&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;통계분석 문제정의:이슈파악, 문제도출, 분석데이터 정의&lt;/li&gt;
+&lt;li&gt;데이터수집 및 정제: 데이터 마트 생성, 데이터 정합성 평가, 데이터 취합, 데이터 포맷 통일&lt;/li&gt;
+&lt;li&gt;탐색적 데이터 분석: 결측치 처리, 클래스 불균형 문제, 데이터 시각화, 통계량 분석&lt;/li&gt;
+&lt;li&gt;데이터 전처리: 차원의 저주, 상관관계 분석, 피처 추출, 범주형 변수 인코딩&lt;/li&gt;
+&lt;li&gt;추론 모델 개발: 추론 모델 수립,추론 모델 검정, 추론 모델 평가&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;ADSP
+분석 기획에서의 데이터 사이언스 역량&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;분석 역량: 문제 영역에 대한 전문성, 수학 통계학적 지식&lt;/li&gt;
+&lt;li&gt;균형잡힌 시각, 데이터 프로그래밍 기술 역량
+분석 대상과 방법&lt;/li&gt;
+&lt;li&gt;방법과 대상을 둘 다 알면 최적화, 방법을 모르면 방법을 찾아야 하므로 솔루션, 둘다 모르면 발견, 대상을 모르면 통찰
+분석 기획 방안&lt;/li&gt;
+&lt;li&gt;과제 중심적 접근은 말그대로 과제를 정확도 보다 빠르게 해결하는데 중점을 둠
+분석 기획시 고려사항&lt;/li&gt;
+&lt;li&gt;가용 데이터: 분석의 기본이 되는 데이터 확보 및 파악&lt;/li&gt;
+&lt;li&gt;적절한 유스 케이스: 기존에 잘 구현되어 활용되고 있는 유사 분석 시나리오 및 솔류션 최대한 활용&lt;/li&gt;
+&lt;li&gt;장애요소들에 대한 사전 계획 수립: 분석 수행 시 일어나는 문제에 대해 고려가 필요함, 이행 저해요소 관리, 일회성 분석에 그치지 않고 조직의 역량으로 내재화
+데이터 기반 의가결정의 필요성&lt;/li&gt;
+&lt;li&gt;경험과 감에 따른 직관적인 의사결정-&gt; 데이터 기반의 의사결정&lt;/li&gt;
+&lt;li&gt;합리적 의사 결정을 가로막는 장애요소: 프레이밍 효과(동일 상황임에도 개인의 판단 결정이 달라짐), 고정관념, 편향된 생각
+분석 방법론(구성요소: 상세한 절차,방법,도구와 기법/템플릿과 산출물)&lt;/li&gt;
+&lt;li&gt;폭포수 모델: 단계를 순차적으로 진행, 이전 단계가 완료되어야 다음 단계로 진행 가능, 하향식으로 진행&lt;/li&gt;
+&lt;li&gt;나선형 모델: 여러번의 개발과정을 거쳐 점진적으로 프로젝트 완성, 관리체계를 효과적으로 갖추지 못한 경우 복잡도가 상승&lt;/li&gt;
+&lt;li&gt;프로토타입 모델:&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[5/11]]></title><description><![CDATA[Feature space 주어진 데이터를 input vector라고 할 때, input vector 중에 필요한 특징만을 추출하여 벡터로 표현한 것을 feature vector…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/TIL/5-11/5-11/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/TIL/5-11/5-11/</guid><pubDate>Wed, 11 May 2022 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;Feature space&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;주어진 데이터를 input vector라고 할 때, input vector 중에 필요한 특징만을 추출하여 벡터로 표현한 것을 feature vector라고 한다.&lt;/li&gt;
 &lt;li&gt;필요한 특징을 선별하는 방법은 데이터를 잘 이해하고 있는 분석가가 담당한다.&lt;/li&gt;
