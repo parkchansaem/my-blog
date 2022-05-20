@@ -1,4 +1,109 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[my develop blog daily learning memo]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 18 May 2022 08:27:02 GMT</lastBuildDate><item><title><![CDATA[5/12]]></title><description><![CDATA[기술통계(Descriptive Statistics…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/TIL/5-12/5-12/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/TIL/5-12/5-12/</guid><pubDate>Thu, 12 May 2022 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;기술통계(Descriptive Statistics): 수집한 데이터를 분석하여 대상들의 속성을 파악하는 통계 방법&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[my develop blog daily learning memo]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 20 May 2022 03:55:39 GMT</lastBuildDate><item><title><![CDATA[5/13]]></title><description><![CDATA[머신러닝의 직관적인 의미 사람이 학습하는 방식과 비슷하게 데이터를 통해서 패턴을 찾아내는 방법 컴퓨터에게 데이터를 바라보는 방법과 예시를 주면 판단을 내리는 기준을 찾는 방법 컴퓨터는 숫자(0,…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/TIL/5-13/5-13/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/TIL/5-13/5-13/</guid><pubDate>Fri, 13 May 2022 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;머신러닝의 직관적인 의미&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;사람이 학습하는 방식과 비슷하게 데이터를 통해서 패턴을 찾아내는 방법&lt;/li&gt;
+&lt;li&gt;컴퓨터에게 데이터를 바라보는 방법과 예시를 주면 판단을 내리는 기준을 찾는 방법&lt;/li&gt;
+&lt;li&gt;컴퓨터는 숫자(0,1)밖에 이해하지 못하므로, 모든 것은 수학적인 기준에 의해 판단&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Supervised Learning: 학습시 사용하는 데이터가 예측 대상을 포함하고 있고, (x,y)의 pair를 학습에 사용하는 방법&lt;/p&gt;
+&lt;p&gt;Unsupervised learning: 학습시 사용하는 데이터만을 이용해서 학습하는 방법&lt;/p&gt;
+&lt;p&gt;Feature vector&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;데이터의 특징을 벡터로 나타낸 것&lt;/li&gt;
+&lt;li&gt;어떤 feature를 사용하는지가 굉장히 중요합니다. Feature engineering&lt;/li&gt;
+&lt;li&gt;Feature vector가 존재하는 공간을 feature space라고 합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Data Split: 학습에 필요한 데이터&lt;/p&gt;
+&lt;p&gt;2차원 데이터 분석&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;두 가지 특성을 나타내는 변수(영어점수, 수학점수)가 존재할 때, ‘영어 점수가 높은 학생이 수학 점수가 높은지?’와 같이 데이터의 상관성을 파악하는데 주로 활용된다.&lt;/li&gt;
+&lt;li&gt;2차원 데이터 분석하는 방법 또한 크게 2가지 방법으로 나뉜다. 수치를 사용한지표: 공분산, 상관계수. 시각화그래프: 산점도, 회귀직선&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;공분산 계산방법(numpy)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Bumpy.cov()를 활용하여 계산가능&lt;/li&gt;
+&lt;li&gt;다만, 계산 결과값이 단순 공분산이 아닌 ‘공분산행렬)로 표현&lt;/li&gt;
+&lt;li&gt;서로 같은 데이터의 공분산값은 1차원 데이터에서의 분산 값과 동일하며, 서로 다른 데이터간의 공분산 값은 앞서 계산식에 따라 나오게 된다.
+공분산 해석시 문제점&lt;/li&gt;
+&lt;li&gt;시험 점수들 간의 공분산의 단위는 점수X점수이다.&lt;/li&gt;
+&lt;li&gt;즉, 분산과 마찬가지로 공분산의 이런 단위는 직감적인 이해를 어렵게 만든다. 단위에 의존하지 않는 상관을 나타내는 지표가 필요(상관 계수)
+상관계수&lt;/li&gt;
+&lt;li&gt;공분산 값에서 단위에 의존하지 않도록 각 데이터의 단위인 표준편차를 나누어준 값&lt;/li&gt;
+&lt;li&gt;이와 같이 정의된 지표를 상관계수라고 한다.
+상관계수의 특징&lt;/li&gt;
+&lt;li&gt;상관계수는 반드시 -1에서 1사이의 값을 가진다.&lt;/li&gt;
+&lt;li&gt;데이터 간 양의 상관관계의 형태를 보이면 상관계수는 1에 가깝고, 음의 상관관계의 형태를 보이면 상관계수는 -1에 가까운 값을 가진다.&lt;/li&gt;
+&lt;li&gt;데이터가 정확히 1혹은 -1이라면 데이터가 완전히 직선상에 놓인다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;회귀직선&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;두 데이터 사이의 관계를 잘 나타내는 직선&lt;/li&gt;
+&lt;li&gt;첫번째 인수가 x축 데이터, 두번째 인수가 y축 데이터이다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;추측통계란&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;일부 데이터로부터 전체의 통계적 성질을 추측하는 방식&lt;/li&gt;
+&lt;li&gt;관측 대상 전체의 통계적 성질을, 그 관측 대상의 일부분만 사용하여 추측&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;모집단: 모체가 되는 집단&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;추측하고 싶은 관측 대상 전체: 모수, 모집단의 평균(모평균), 분산(모분산),상관계수등
+표본: 통계에서 조사를 위해서 데이터를 추출하는 것&lt;/li&gt;
+&lt;li&gt;추측에 사용되는 관측 대상의 일부분 - 표본추출: 모집단에서 표본을 골라내는 일 - 표본 크기: 골라낸 표본의 수 - 표본통계량: 표본을 바탕으로 계산한 평균, 분산, 상관계수
+모집단 내 표본 추출의 필요성&lt;/li&gt;
+&lt;li&gt;조상해야하는 데이터 양이 많을 때&lt;/li&gt;
+&lt;li&gt;뿐만 아니라 모든 데이터를 조사하기에 환경적인 어려움이 있을 때
+추정량: 표본평균으로 모평균을 추측할 때, 표본평균 = 모평균의 추정량-&gt; 추상적인 형태로 표현
+추정치: 실제 표본의 데이터 값들을 이용하여 계산한 결과 -&gt; 구체적인 실제 값을 활용
+무작위 추출을 하는 이유는 편향이 심화 될 수 있으므로 편향 가능성을 낮추기 위해 사용, 하지만 무작위 추출 또한 편향될 수 있다.
+복원추출(sampling with replacement): 위와 같이 여러 차례 동일한 표본을 선택하는 추출 방법
+비복원추출(sampling without replacement): 동일한 표본은 한 번만 선택하는 방법
+무작위 추출의 문제점&lt;/li&gt;
+&lt;li&gt;임의로 표본을 선택하는 것이므로, 추출 후 어떤 결과가 나올지 확인하기 어렵다.&lt;/li&gt;
+&lt;li&gt;어제와 오늘의 결과가 다르며, 내일의 결과를 예측하기도 어렵다.
+확률: 무작위 추출의 불확실성을 수반한 현상을 해석하기 위한 개념&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;확률변수(random variable):결과를 예측할 수는 없지만, 취하는 값과 그 값이 나올 확률이 결정되어 있는 것
+시행(Trial):실제 경험을 통해 확률변수의 결과를 관측하는 것
+실현값(Realization):시행에 의해 관측되는 값
+사건(event):눈이 1 혹은 눈이 홀수와 같이 시행 결과로 나타날 수 있는 일
+근원사건(Elementary Event) : 눈이 1처럼 더이상 세부적으로 분해할 수 없는 사건
+상호배반(Mutually Exclusive):각 사건이 동시에 일어날 수 없음을 나타낸다.&lt;/p&gt;
+&lt;p&gt;확률분포(Probability Distribution): 확률변수가 어떤 값과 확률로 움직이는지를 표현한 것&lt;/p&gt;
+&lt;p&gt;추정: 모수를 추측하는것&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;점추정: 하나의 값으로 추정하는 것&lt;/li&gt;
+&lt;li&gt;구간추정: 구간으로 추정하는 것
+검정&lt;/li&gt;
+&lt;li&gt;모집단의 통계적 성질에 대해 가설을 세우고, 그 가설이 옳은지 여부를 판단하는 기법&lt;/li&gt;
+&lt;li&gt;즉, 주사위가 공정한 주사위라는 가설을 세우고, 그 가설이 옳은지 여부를 통계학적으로 판정&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;이산형 확률변수: 확률변수로 취할 수 있는 값들이 셀수 있는 데이터일 때
+연속형 확률변수: 확률변수로 취할 수 있는 값들이 셀수 없는 데이터일 때&lt;/p&gt;
+&lt;p&gt;확률의 성질&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;확률은 2가지 식을 만족하여야한다, 확률이 절대적으로 0이상이어야한다, 모든 확률을 더하면 1이 되어야 한다.&lt;/li&gt;
+&lt;li&gt;확률이 모두 0이상인지는 모든 요소가 참일때만 참을 반환하는 np.all함수로 확인이 가능하다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;누적분포함수(Cumulative Distribution Function CDF)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;확룰함수는 P(X=x)로 표현이 되지만, 누적분포함수는 P(X&amp;#x3C;=x)로 표현이 된다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;기대값(Expectation, Expected Value)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;확률변수의 평균&lt;/li&gt;
+&lt;li&gt;이상적인 기대값 계산방법: 확률변수를 무제한으로 시행하여 얻어진 실현값의 평균&lt;/li&gt;
+&lt;li&gt;이산형 확률변수의 평균: 확률변수가 취할 수 있는 값과 그 확률의 곱의 총합으로 정의&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2차원 이산형 확률변수의 정의&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;2차원 확률변수에서는 1차원 확률분포2개(X,Y)를 동시에 다룬다.&lt;/li&gt;
+&lt;li&gt;각 확률변수가 취할 수 있는 값의 조합으로 이루어진 지합과 그 확률에 의해 정의된다.
+결합확률분포: 확률변수(X,Y)의 움직임을 동시에 고려한 분포를 결합확률분포라고 한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;주변확률분포(Marginal Probability Distribution)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;확률변수(X,Y)가 결합확률분포에 의해 동시에 정의되었음에도(fxy(xi,yi))개별 확률변수 X의 확률분포(fx(x))만을 다시 살펴보아야할 때 이를 주변확률분포라 한다.&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[5/12]]></title><description><![CDATA[기술통계(Descriptive Statistics…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/TIL/5-12/5-12/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/TIL/5-12/5-12/</guid><pubDate>Thu, 12 May 2022 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;기술통계(Descriptive Statistics): 수집한 데이터를 분석하여 대상들의 속성을 파악하는 통계 방법&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;중심경향값: 전체 자료를 대표할 수 있는 수치들(평균,최빈값)
 &lt;ul&gt;
