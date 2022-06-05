@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-blog-post-js",
+    "path": "/TIL/5-17/5-17/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"Chan saem 의 블로그"}},"markdownRemark":{"id":"f84bab12-a786-5ebb-b4bd-ab1957642fba","excerpt":"연속형 확률변수 취할 수 있는 값이 연속인 확률변수 (셀수없음) 확률변수의 각 값이 나올 수 있는 확률은 0이며, 각 값들이 어떤 범위 안에 속할 확률로서 확률값이 정의된다.\n확률밀도함수 연속형 확률변수의 확률 정의에 사용되는 함수 [a,b…","html":"<p>연속형 확률변수</p>\n<ul>\n<li>취할 수 있는 값이 연속인 확률변수 (셀수없음)</li>\n<li>확률변수의 각 값이 나올 수 있는 확률은 0이며, 각 값들이 어떤 범위 안에 속할 확률로서 확률값이 정의된다.\n확률밀도함수</li>\n<li>연속형 확률변수의 확률 정의에 사용되는 함수</li>\n<li>[a,b]:확률변수가 취할 수 있는 값의 표현</li>\n</ul>\n<p>주변확률밀도함ㅅ</p>\n<ul>\n<li>이미x,y로 정의된 결합확률밀도함수로부터, 각 확률변수만의 특징을 파악하고 싶을 때 활용되는 함수</li>\n</ul>","frontmatter":{"title":"5/17","date":"May 17, 2022","description":"공부내역"}},"previous":{"fields":{"slug":"/TIL/5-16/5-16/"},"frontmatter":{"title":"5/16"}},"next":null},"pageContext":{"id":"f84bab12-a786-5ebb-b4bd-ab1957642fba","previousPostId":"1ee39ee2-c288-5d01-9d9e-be4d0197da41","nextPostId":null}},
+    "staticQueryHashes": ["2841359383","3257411868"]}
